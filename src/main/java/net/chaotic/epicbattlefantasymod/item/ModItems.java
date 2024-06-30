@@ -1,8 +1,6 @@
 package net.chaotic.epicbattlefantasymod.item;
 
 import net.chaotic.epicbattlefantasymod.EpicBattleFantasyMod;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
@@ -11,7 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item SPRING = registerItem("spring", new Item(new FabricItemSettings()));
+    public static final Item SPRING = registerItem("spring", new Item(new Item.Settings()));
     public static final Item EARTH_BALL = registerItem("earth_ball", new Item(new Item.Settings()));
     public static final Item AMBER = registerItem("amber", new Item(new Item.Settings()));
     public static final Item AN_HERB = registerItem("an_herb", new Item(new Item.Settings()));
@@ -62,7 +60,7 @@ public class ModItems {
     public static final Item THE_HOLY_GRAIL  = registerItem("the_holy_grail", new Item(new Item.Settings()));
     public static final Item TITANIUM  = registerItem("titanium", new Item(new Item.Settings()));
     public static final Item TOPAZ  = registerItem("topaz", new Item(new Item.Settings()));
-    public static final Item HEAVENS_GATE = registerItem("heavens_gate", new SwordItem(ModToolMaterial.STEEL_PLATE, 1, 1, new Item.Settings()));
+    public static final Item HEAVENS_GATE = registerItem("heavens_gate", new SwordItem(ModToolMaterial.STEEL_PLATE, 3, -3.3f, new Item.Settings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(SPRING);

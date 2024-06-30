@@ -1,12 +1,11 @@
 package net.chaotic.epicbattlefantasymod.item;
 
-import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    STEEL_PLATE(5, 250, 6.0F, 2.0F, 14, () -> Ingredient.ofItems(Items.IRON_INGOT));
+    STEEL_PLATE(5, 250, 6.0F, 3.0F, 14, () -> Ingredient.ofItems(ModItems.STEEL_PLATE));
 
     private final int miningLevel;
     private final int itemDurability;
