@@ -12,6 +12,6 @@ public class EpicBattleFantasyMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		LOGGER.info("Hello Fabric world!");
+
 	}
 }
