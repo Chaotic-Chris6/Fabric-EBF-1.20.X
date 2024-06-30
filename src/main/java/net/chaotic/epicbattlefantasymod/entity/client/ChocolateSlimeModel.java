@@ -2,9 +2,9 @@
 // Exported for Minecraft version 1.17+ for Yarn
 // Paste this class into your mod and generate all required imports
 
-package net.chris.ebfmod.entity.client;
+package net.chaotic.epicbattlefantasymod.entity.client;
 
-import net.chris.ebfmod.entity.custom.ChocolateSlimeEntity;
+import net.chaotic.epicbattlefantasymod.entity.custom.ChocolateSlimeEntity;
 import net.minecraft.client.model.*;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.entity.model.EntityModel;
