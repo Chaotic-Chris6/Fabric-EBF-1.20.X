@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    " C ",
+    " S "
+  ],
+  "key": {
+    "C": {
+      "item": "epicbattlefantasymod:copper_pipe"
+    },
+    "S": {
+      "item": "epicbattlefantasymod:steel_plate"
+    }
+  },
+    "result": {
+      "item": "epicbattlefantasymod:giant_slayer"
+    },
+  "show_notification": true
+  }
