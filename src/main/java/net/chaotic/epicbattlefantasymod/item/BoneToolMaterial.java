@@ -1,13 +1,13 @@
 package net.chaotic.epicbattlefantasymod.item;
 
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 import java.util.function.Supplier;
 
-public enum FireToolMaterial implements ToolMaterial {
-    FIRE(5, 250, 6.0F, 2.0F, 14, () -> Ingredient.ofItems(ModItems.MAGMA_CHUNK)),
-    IRON_PLATE(5, 250, 6.0F, 0.0F, 80, () -> Ingredient.ofItems(ModItems.IRON_PLATE));
+public enum BoneToolMaterial implements ToolMaterial {
+    BONE(5, 100, 4.0F, 4.0F, 24, () -> Ingredient.ofItems(Items.BONE));
 
     private final int miningLevel;
     private final int itemDurability;
@@ -16,7 +16,7 @@ public enum FireToolMaterial implements ToolMaterial {
     private final int enchantability;
     private final Supplier<Ingredient> repairIngredient;
 
-    FireToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
+    BoneToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
         this.miningLevel = miningLevel;
         this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;

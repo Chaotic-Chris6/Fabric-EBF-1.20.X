@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " LW",
+    " W ",
+    " W "
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "W": {
+      "item": "epicbattlefantasymod:soft_wood"
+    }
+  },
+    "result": {
+      "item": "epicbattlefantasymod:ultra_pro"
+    },
+  "show_notification": true
+  }

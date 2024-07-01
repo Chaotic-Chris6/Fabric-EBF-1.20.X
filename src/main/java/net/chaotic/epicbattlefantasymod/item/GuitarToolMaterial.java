@@ -5,9 +5,8 @@ import net.minecraft.recipe.Ingredient;
 
 import java.util.function.Supplier;
 
-public enum FireToolMaterial implements ToolMaterial {
-    FIRE(5, 250, 6.0F, 2.0F, 14, () -> Ingredient.ofItems(ModItems.MAGMA_CHUNK)),
-    IRON_PLATE(5, 250, 6.0F, 0.0F, 80, () -> Ingredient.ofItems(ModItems.IRON_PLATE));
+public enum GuitarToolMaterial implements ToolMaterial {
+    GAME_CHILD(5, 80, 6.0F, 2.0F, 100, () -> Ingredient.ofItems(ModItems.GAME_CHILD));
 
     private final int miningLevel;
     private final int itemDurability;
@@ -16,7 +15,7 @@ public enum FireToolMaterial implements ToolMaterial {
     private final int enchantability;
     private final Supplier<Ingredient> repairIngredient;
 
-    FireToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
+    GuitarToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
         this.miningLevel = miningLevel;
         this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;

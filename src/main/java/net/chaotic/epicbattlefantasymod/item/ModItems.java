@@ -67,11 +67,14 @@ public class ModItems {
     public static final Item LIGHTNING_SHARD = registerItem("lightning_shard", new SwordItem(TopazToolMaterial.TOPAZ, 1, -2.0f, new Item.Settings()));
     public static final Item SAPPHIRE_SAINT = registerItem("sapphire_saint", new SwordItem(SapphireToolMaterial.SAPPHIRE, 4, -2.9f, new Item.Settings()));
     public static final Item BLACK_FANG = registerItem("black_fang", new BlackFang(OpalToolMaterial.OPAL, 0, -3.0f, new Item.Settings()));
-    public static final Item THE_CHOPPER = registerItem("the_chopper", new AxeItem(WoodToolMaterial.SOFT_WOOD, 0, -3.0f, new Item.Settings()));
+    public static final Item THE_CHOPPER = registerItem("the_chopper", new AxeItem(WoodToolMaterial.STEEL_PLATE, 0, -3.0f, new Item.Settings()));
     public static final Item GIANT_SLAYER = registerItem("giant_slayer", new SwordItem(SteelToolMaterial.STEEL_PLATE, 11, -3.6f, new Item.Settings()));
     public static final Item HYPER_DRILL = registerItem("hyper_drill", new PickaxeItem(DrillToolMaterial.STEEL_PLATE, 2, -3.0f, new Item.Settings()));
     public static final Item EMERALD_SMASHER = registerItem("emerald_smasher", new PickaxeItem(EmeraldToolMaterial.EMERALD, 4, -3.2f, new Item.Settings()));
-    public static final Item DEVILS_FORK = registerItem("devils_fork", new SwordItem(FireToolMaterial.IRON_PLATE, 4, -3.2f, new Item.Settings()));
+    public static final Item DEVILS_FORK = registerItem("devils_fork", new SwordItem(FireToolMaterial.IRON_PLATE, 3, -3.2f, new Item.Settings()));
+    public static final Item ULTRA_PRO = registerItem("ultra_pro", new SwordItem(WoodToolMaterial.SOFT_WOOD, 0, -2.5f, new Item.Settings()));
+    public static final Item CLUB_OF_WITHERING = registerItem("club_of_withering", new SwordItem(BoneToolMaterial.BONE, 2, -3.1f, new Item.Settings()));
+    public static final Item CRIMSON_RAZORBACK = registerItem("crimson_razorback", new SwordItem(GuitarToolMaterial.GAME_CHILD, 0, -3.0f, new Item.Settings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(SPRING);
@@ -139,6 +142,9 @@ public class ModItems {
         entries.add(HYPER_DRILL);
         entries.add(EMERALD_SMASHER);
         entries.add(DEVILS_FORK);
+        entries.add(ULTRA_PRO);
+        entries.add(CLUB_OF_WITHERING);
+        entries.add(CRIMSON_RAZORBACK);
     }
 
     private static Item registerItem(String name, Item item) {

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SBR",
+    "SBR",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "R": {
+      "item": "epicbattlefantasymod:razor_claw"
+    },
+    "S": {
+      "item": "epicbattlefantasymod:bone_spike"
+    }
+  },
+    "result": {
+      "item": "epicbattlefantasymod:club_of_withering"
+    },
+  "show_notification": true
+  }
