@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " P ",
+    " S ",
+    " F "
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "P": {
+      "item": "epicbattlefantasymod:sapphire"
+    },
+    "S": {
+      "item": "epicbattlefantasymod:shuriken"
+    }
+  },
+    "result": {
+      "item": "epicbattlefantasymod:dragons_feather"
+    },
+  "show_notification": true
+  }

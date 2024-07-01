@@ -75,6 +75,8 @@ public class ModItems {
     public static final Item ULTRA_PRO = registerItem("ultra_pro", new SwordItem(WoodToolMaterial.SOFT_WOOD, 0, -2.5f, new Item.Settings()));
     public static final Item CLUB_OF_WITHERING = registerItem("club_of_withering", new SwordItem(BoneToolMaterial.BONE, 2, -3.1f, new Item.Settings()));
     public static final Item CRIMSON_RAZORBACK = registerItem("crimson_razorback", new SwordItem(GuitarToolMaterial.GAME_CHILD, 0, -3.0f, new Item.Settings()));
+    public static final Item DRAGONS_FEATHER = registerItem("dragons_feather", new SwordItem(FeatherToolMaterial.FEATHER, 0, 0.0f, new Item.Settings()));
+    public static final Item GOLDEN_AXE = registerItem("golden_axe", new AxeItem(GoldPlateToolMaterial.GOLD_PLATE, 2, -2.0f, new Item.Settings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(SPRING);
@@ -145,6 +147,8 @@ public class ModItems {
         entries.add(ULTRA_PRO);
         entries.add(CLUB_OF_WITHERING);
         entries.add(CRIMSON_RAZORBACK);
+        entries.add(DRAGONS_FEATHER);
+        entries.add(GOLDEN_AXE);
     }
 
     private static Item registerItem(String name, Item item) {
