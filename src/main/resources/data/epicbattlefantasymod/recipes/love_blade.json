@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " J ",
+    " J ",
+    " J "
+  ],
+  "key": {
+    "J": {
+      "item": "epicbattlefantasymod:jungle_flower"
+    }
+  },
+    "result": {
+      "item": "epicbattlefantasymod:love_blade"
+    },
+  "show_notification": true
+  }

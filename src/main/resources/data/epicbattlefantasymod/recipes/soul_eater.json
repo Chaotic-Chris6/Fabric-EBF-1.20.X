@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "SAS",
+    " I "
+  ],
+  "key": {
+    "S": {
+      "item": "epicbattlefantasymod:bone_spike"
+    },
+    "A": {
+      "item": "epicbattlefantasymod:amber"
+    },
+    "I": {
+      "item": "epicbattlefantasymod:iron_plate"
+    }
+  },
+    "result": {
+      "item": "epicbattlefantasymod:soul_eater"
+    },
+  "show_notification": true
+  }

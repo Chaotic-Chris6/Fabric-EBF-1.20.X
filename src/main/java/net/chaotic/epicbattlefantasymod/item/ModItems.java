@@ -60,7 +60,7 @@ public class ModItems {
     public static final Item THE_HOLY_GRAIL  = registerItem("the_holy_grail", new Item(new Item.Settings()));
     public static final Item TITANIUM  = registerItem("titanium", new Item(new Item.Settings()));
     public static final Item TOPAZ  = registerItem("topaz", new Item(new Item.Settings()));
-    public static final Item HEAVENS_GATE = registerItem("heavens_gate", new SwordItem(SteelToolMaterial.STEEL_PLATE, 3, -3.3f, new Item.Settings()));
+    public static final Item HEAVENS_GATE = registerItem("heavens_gate", new SwordItem(SteelToolMaterial.STEEL_PLATE, 3, -3.333f, new Item.Settings()));
     public static final Item BERSERKER = registerItem("berserker", new SwordItem(BrickToolMaterial.BRICK, 6, -3.4f, new Item.Settings()));
     public static final Item INFERNO = registerItem("inferno", new Inferno(FireToolMaterial.FIRE, 5, -3f, new Item.Settings()));
     public static final Item ICE_NEEDLE = registerItem("ice_needle", new IceNeedle(IceToolMaterial.ICE, 2, -3.1f, new Item.Settings()));
@@ -77,6 +77,10 @@ public class ModItems {
     public static final Item CRIMSON_RAZORBACK = registerItem("crimson_razorback", new SwordItem(GuitarToolMaterial.GAME_CHILD, 0, -3.0f, new Item.Settings()));
     public static final Item DRAGONS_FEATHER = registerItem("dragons_feather", new SwordItem(FeatherToolMaterial.FEATHER, 0, 0.0f, new Item.Settings()));
     public static final Item GOLDEN_AXE = registerItem("golden_axe", new AxeItem(GoldPlateToolMaterial.GOLD_PLATE, 2, -2.0f, new Item.Settings()));
+    public static final Item DARK_STALKER = registerItem("dark_stalker", new SwordItem(RazorClawToolMaterial.RAZOR_CLAW, 2, -3.4f, new Item.Settings()));
+    public static final Item FUSION_BLADE = registerItem("fusion_blade", new SwordItem(FusionToolMaterial.METAL_GEAR, 2, -0.5f, new Item.Settings()));
+    public static final Item SOUL_EATER = registerItem("soul_eater", new SwordItem(RazorClawToolMaterial.IRON_PLATE, 6, -3.444f, new Item.Settings()));
+    public static final Item LOVE_BLADE = registerItem("love_blade", new SwordItem(JungleFlowerToolMaterial.JUNGLE_FLOWER, 0, -3.0f, new Item.Settings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(SPRING);
@@ -149,6 +153,10 @@ public class ModItems {
         entries.add(CRIMSON_RAZORBACK);
         entries.add(DRAGONS_FEATHER);
         entries.add(GOLDEN_AXE);
+        entries.add(DARK_STALKER);
+        entries.add(FUSION_BLADE);
+        entries.add(SOUL_EATER);
+        entries.add(LOVE_BLADE);
     }
 
     private static Item registerItem(String name, Item item) {
