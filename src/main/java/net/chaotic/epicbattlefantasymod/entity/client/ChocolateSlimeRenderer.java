@@ -1,4 +1,4 @@
-package net.chris.ebfmod.entity.client;
+package net.chaotic.epicbattlefantasymod.entity.client;
 
 public class ChocolateSlimeRenderer {
 }

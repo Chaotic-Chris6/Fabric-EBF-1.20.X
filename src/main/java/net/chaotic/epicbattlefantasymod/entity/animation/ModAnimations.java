@@ -1,2 +1,2 @@
-package net.chris.ebfmod.entity.animation;public class ModAnimations {
+package net.chaotic.epicbattlefantasymod.entity.animation;public class ModAnimations {
 }

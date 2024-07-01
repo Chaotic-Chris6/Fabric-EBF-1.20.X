@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " B ",
+    " S ",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:brick"
+    },
+    "S": {
+      "item": "epicbattlefantasymod:sacred_rune"
+    }
+  },
+    "result": {
+      "item": "epicbattlefantasymod:berserker"
+    },
+  "show_notification": true
+  }

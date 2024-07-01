@@ -1,11 +1,13 @@
 package net.chaotic.epicbattlefantasymod.item;
 
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+
 import java.util.function.Supplier;
 
-public enum ModToolMaterial implements ToolMaterial {
-    STEEL_PLATE(5, 250, 6.0F, 3.0F, 14, () -> Ingredient.ofItems(ModItems.STEEL_PLATE));
+public enum BrickToolMaterial implements ToolMaterial {
+    BRICK(5, 250, 6.0F, 3.0F, 14, () -> Ingredient.ofItems(Items.BRICK));
 
     private final int miningLevel;
     private final int itemDurability;
@@ -14,7 +16,7 @@ public enum ModToolMaterial implements ToolMaterial {
     private final int enchantability;
     private final Supplier<Ingredient> repairIngredient;
 
-    ModToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
+    BrickToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
         this.miningLevel = miningLevel;
         this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;
@@ -22,7 +24,6 @@ public enum ModToolMaterial implements ToolMaterial {
         this.enchantability = enchantability;
         this.repairIngredient = repairIngredient;
     }
-
 
 
     @Override
