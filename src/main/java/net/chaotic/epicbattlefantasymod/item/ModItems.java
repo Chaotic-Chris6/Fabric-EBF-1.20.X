@@ -70,6 +70,8 @@ public class ModItems {
     public static final Item THE_CHOPPER = registerItem("the_chopper", new AxeItem(WoodToolMaterial.SOFT_WOOD, 0, -3.0f, new Item.Settings()));
     public static final Item GIANT_SLAYER = registerItem("giant_slayer", new SwordItem(SteelToolMaterial.STEEL_PLATE, 11, -3.6f, new Item.Settings()));
     public static final Item HYPER_DRILL = registerItem("hyper_drill", new PickaxeItem(DrillToolMaterial.STEEL_PLATE, 2, -3.0f, new Item.Settings()));
+    public static final Item EMERALD_SMASHER = registerItem("emerald_smasher", new PickaxeItem(EmeraldToolMaterial.EMERALD, 4, -3.2f, new Item.Settings()));
+    public static final Item DEVILS_FORK = registerItem("devils_fork", new SwordItem(FireToolMaterial.IRON_PLATE, 4, -3.2f, new Item.Settings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(SPRING);
@@ -134,6 +136,9 @@ public class ModItems {
         entries.add(BLACK_FANG);
         entries.add(THE_CHOPPER);
         entries.add(GIANT_SLAYER);
+        entries.add(HYPER_DRILL);
+        entries.add(EMERALD_SMASHER);
+        entries.add(DEVILS_FORK);
     }
 
     private static Item registerItem(String name, Item item) {

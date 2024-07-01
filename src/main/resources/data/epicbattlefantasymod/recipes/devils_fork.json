@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IMI",
+    " I ",
+    " I "
+  ],
+  "key": {
+    "M": {
+      "item": "epicbattlefantasymod:magma_chunk"
+    },
+    "I": {
+      "item": "epicbattlefantasymod:iron_plate"
+    }
+  },
+    "result": {
+      "item": "epicbattlefantasymod:devils_fork"
+    },
+  "show_notification": true
+  }
