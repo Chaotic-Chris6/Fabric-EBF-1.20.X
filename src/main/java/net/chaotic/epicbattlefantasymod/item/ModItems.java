@@ -64,6 +64,9 @@ public class ModItems {
     public static final Item BERSERKER = registerItem("berserker", new SwordItem(BrickToolMaterial.BRICK, 6, -3.4f, new Item.Settings()));
     public static final Item INFERNO = registerItem("inferno", new Inferno(FireToolMaterial.FIRE, 5, -3f, new Item.Settings()));
     public static final Item ICE_NEEDLE = registerItem("ice_needle", new IceNeedle(IceToolMaterial.ICE, 2, -3.1f, new Item.Settings()));
+    public static final Item LIGHTNING_SHARD = registerItem("lightning_shard", new SwordItem(TopazToolMaterial.TOPAZ, 1, -2.0f, new Item.Settings()));
+    public static final Item SAPPHIRE_SAINT = registerItem("sapphire_saint", new SwordItem(SapphireToolMaterial.SAPPHIRE, 4, -2.9f, new Item.Settings()));
+    public static final Item BLACK_FANG = registerItem("black_fang", new BlackFang(OpalToolMaterial.OPAL, 0, -3.0f, new Item.Settings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(SPRING);
@@ -123,6 +126,9 @@ public class ModItems {
         entries.add(BERSERKER);
         entries.add(INFERNO);
         entries.add(ICE_NEEDLE);
+        entries.add(LIGHTNING_SHARD);
+        entries.add(SAPPHIRE_SAINT);
+        entries.add(BLACK_FANG);
     }
 
     private static Item registerItem(String name, Item item) {

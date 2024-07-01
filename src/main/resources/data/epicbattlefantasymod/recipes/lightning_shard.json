@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " T ",
+    " T ",
+    " S "
+  ],
+  "key": {
+    "T": {
+      "item": "epicbattlefantasymod:topaz"
+    },
+    "S": {
+      "item": "epicbattlefantasymod:sea_shell"
+    }
+  },
+    "result": {
+      "item": "epicbattlefantasymod:lightning_shard"
+    },
+  "show_notification": true
+  }
