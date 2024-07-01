@@ -60,8 +60,10 @@ public class ModItems {
     public static final Item THE_HOLY_GRAIL  = registerItem("the_holy_grail", new Item(new Item.Settings()));
     public static final Item TITANIUM  = registerItem("titanium", new Item(new Item.Settings()));
     public static final Item TOPAZ  = registerItem("topaz", new Item(new Item.Settings()));
-    public static final Item HEAVENS_GATE = registerItem("heavens_gate", new SwordItem(ModToolMaterial.STEEL_PLATE, 3, -3.3f, new Item.Settings()));
+    public static final Item HEAVENS_GATE = registerItem("heavens_gate", new SwordItem(SteelToolMaterial.STEEL_PLATE, 3, -3.3f, new Item.Settings()));
     public static final Item BERSERKER = registerItem("berserker", new SwordItem(BrickToolMaterial.BRICK, 6, -3.4f, new Item.Settings()));
+    public static final Item INFERNO = registerItem("inferno", new Inferno(FireToolMaterial.FIRE, 5, -3f, new Item.Settings()));
+    public static final Item ICE_NEEDLE = registerItem("ice_needle", new IceNeedle(IceToolMaterial.ICE, 2, -3.1f, new Item.Settings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(SPRING);
@@ -119,6 +121,8 @@ public class ModItems {
     private static void addItemsToCombatItemGroup(FabricItemGroupEntries entries){
         entries.add(HEAVENS_GATE);
         entries.add(BERSERKER);
+        entries.add(INFERNO);
+        entries.add(ICE_NEEDLE);
     }
 
     private static Item registerItem(String name, Item item) {

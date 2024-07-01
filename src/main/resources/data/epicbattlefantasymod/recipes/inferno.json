@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    "RMR",
+    " M "
+  ],
+  "key": {
+    "M": {
+      "item": "epicbattlefantasymod:magma_chunk"
+    },
+    "R": {
+      "item": "epicbattlefantasymod:ruby"
+    }
+  },
+    "result": {
+      "item": "epicbattlefantasymod:inferno"
+    },
+  "show_notification": true
+  }
