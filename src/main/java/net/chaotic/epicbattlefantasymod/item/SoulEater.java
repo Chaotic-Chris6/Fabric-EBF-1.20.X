@@ -12,8 +12,8 @@ public class SoulEater extends SwordItem {
         super(toolMaterial, attackDamage, attackSpeed, settings);
     }
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker){
-        target.addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER, 20, 0));
-        attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER, 20, 0));
+        target.addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER, 20, 1));
+        attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER, 100, 0));
         attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.INSTANT_HEALTH, 1, 0));
         return false;
     }

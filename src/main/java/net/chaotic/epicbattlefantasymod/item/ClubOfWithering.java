@@ -12,8 +12,8 @@ public class ClubOfWithering extends SwordItem {
         super(toolMaterial, attackDamage, attackSpeed, settings);
     }
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker){
-        target.addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER, 20, 1));
-        target.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, 20, 0));
+        target.addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER, 200, 1));
+        target.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, 200, 0));
         return false;
     }
 }

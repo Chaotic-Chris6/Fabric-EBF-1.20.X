@@ -12,7 +12,7 @@ public class DragonsFeather extends SwordItem {
         super(toolMaterial, attackDamage, attackSpeed, settings);
     }
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker){
-        attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE, 20, 0));
+        attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE, 200, 0));
         return false;
     }
 }

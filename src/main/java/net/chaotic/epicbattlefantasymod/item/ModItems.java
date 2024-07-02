@@ -60,12 +60,12 @@ public class ModItems {
     public static final Item THE_HOLY_GRAIL  = registerItem("the_holy_grail", new Item(new Item.Settings()));
     public static final Item TITANIUM  = registerItem("titanium", new Item(new Item.Settings()));
     public static final Item TOPAZ  = registerItem("topaz", new Item(new Item.Settings()));
-    public static final Item HEAVENS_GATE = registerItem("heavens_gate", new HeavensGate(SteelToolMaterial.STEEL_PLATE, 3, -3.223f, new Item.Settings()));
+    public static final Item HEAVENS_GATE = registerItem("heavens_gate", new HeavensGate(SteelToolMaterial.STEEL_PLATE, 3, -3.23f, new Item.Settings()));
     public static final Item BERSERKER = registerItem("berserker", new Berserker(BrickToolMaterial.BRICK, 6, -3.4f, new Item.Settings()));
     public static final Item INFERNO = registerItem("inferno", new Inferno(FireToolMaterial.FIRE, 5, -3f, new Item.Settings()));
     public static final Item ICE_NEEDLE = registerItem("ice_needle", new IceNeedle(IceToolMaterial.ICE, 2, -3.1f, new Item.Settings()));
     public static final Item LIGHTNING_SHARD = registerItem("lightning_shard", new SwordItem(TopazToolMaterial.TOPAZ, 2, -2.0f, new Item.Settings()));
-    public static final Item SAPPHIRE_SAINT = registerItem("sapphire_saint", new SwordItem(SapphireToolMaterial.SAPPHIRE, 3, -3.0f, new Item.Settings()));
+    public static final Item SAPPHIRE_SAINT = registerItem("sapphire_saint", new SapphireSaint(SapphireToolMaterial.SAPPHIRE, 3, -3.0f, new Item.Settings()));
     public static final Item BLACK_FANG = registerItem("black_fang", new BlackFang(OpalToolMaterial.OPAL, 0, -3.0f, new Item.Settings()));
     public static final Item THE_CHOPPER = registerItem("the_chopper", new AxeItem(WoodToolMaterial.STEEL_PLATE, 0, -3.0f, new Item.Settings()));
     public static final Item GIANT_SLAYER = registerItem("giant_slayer", new SwordItem(SteelToolMaterial.STEEL_PLATE, 11, -3.6f, new Item.Settings()));
@@ -79,7 +79,7 @@ public class ModItems {
     public static final Item GOLDEN_AXE = registerItem("golden_axe", new GoldenAxe(GoldPlateToolMaterial.GOLD_PLATE, 2, -2.0f, new Item.Settings()));
     public static final Item DARK_STALKER = registerItem("dark_stalker", new DarkStalker(RazorClawToolMaterial.RAZOR_CLAW, 1, -2.9f, new Item.Settings()));
     public static final Item FUSION_BLADE = registerItem("fusion_blade", new SwordItem(FusionToolMaterial.METAL_GEAR, 2, -2.5f, new Item.Settings()));
-    public static final Item SOUL_EATER = registerItem("soul_eater", new SoulEater(RazorClawToolMaterial.IRON_PLATE, 1, -3.334f, new Item.Settings()));
+    public static final Item SOUL_EATER = registerItem("soul_eater", new SoulEater(RazorClawToolMaterial.IRON_PLATE, 1, -3.34f, new Item.Settings()));
     public static final Item LOVE_BLADE = registerItem("love_blade", new LoveBlade(JungleFlowerToolMaterial.JUNGLE_FLOWER, 0, -3.0f, new Item.Settings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
