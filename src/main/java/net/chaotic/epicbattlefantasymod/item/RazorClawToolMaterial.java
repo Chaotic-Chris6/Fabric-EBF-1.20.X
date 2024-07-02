@@ -6,8 +6,8 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum RazorClawToolMaterial implements ToolMaterial {
-    RAZOR_CLAW(5, 100, 4.0F, 2.0F, 50, () -> Ingredient.ofItems(ModItems.RAZOR_CLAW)),
-    IRON_PLATE(5, 100, 4.0F, 2.0F, 50, () -> Ingredient.ofItems(ModItems.IRON_PLATE));
+    RAZOR_CLAW(5, 100, 4.0F, 2.0F, 26, () -> Ingredient.ofItems(ModItems.RAZOR_CLAW)),
+    IRON_PLATE(5, 100, 4.0F, 18.0F, 16, () -> Ingredient.ofItems(ModItems.IRON_PLATE));
 
     private final int miningLevel;
     private final int itemDurability;

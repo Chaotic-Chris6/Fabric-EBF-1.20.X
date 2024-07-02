@@ -7,7 +7,7 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum BrickToolMaterial implements ToolMaterial {
-    BRICK(5, 250, 6.0F, 3.0F, 14, () -> Ingredient.ofItems(Items.BRICK));
+    BRICK(5, 250, 6.0F, 3.0F, 1, () -> Ingredient.ofItems(Items.BRICK));
 
     private final int miningLevel;
     private final int itemDurability;

@@ -1,13 +1,12 @@
 package net.chaotic.epicbattlefantasymod.item;
 
-import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 import java.util.function.Supplier;
 
 public enum SapphireToolMaterial implements ToolMaterial {
-SAPPHIRE(5, 250, 6.0F, 2.0F, 24, () -> Ingredient.ofItems(ModItems.SAPPHIRE));
+SAPPHIRE(5, 250, 6.0F, 2.0F, 7, () -> Ingredient.ofItems(ModItems.SAPPHIRE));
 
     private final int miningLevel;
     private final int itemDurability;

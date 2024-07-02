@@ -7,7 +7,7 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum FusionToolMaterial implements ToolMaterial {
-    METAL_GEAR(5, 800, 8.0F, 8.0F, 4, () -> Ingredient.ofItems(ModItems.METAL_GEAR));
+    METAL_GEAR(5, 800, 8.0F, 5.0F, 20, () -> Ingredient.ofItems(ModItems.METAL_GEAR));
 
     private final int miningLevel;
     private final int itemDurability;

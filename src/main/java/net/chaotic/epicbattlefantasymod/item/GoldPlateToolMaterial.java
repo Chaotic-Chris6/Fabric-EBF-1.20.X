@@ -6,7 +6,7 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum GoldPlateToolMaterial implements ToolMaterial {
-    GOLD_PLATE(5, 80, 12.0F, 3.0F, 22, () -> Ingredient.ofItems(ModItems.GOLD_PLATE));
+    GOLD_PLATE(5, 80, 12.0F, 2.0F, 14, () -> Ingredient.ofItems(ModItems.GOLD_PLATE));
 
     private final int miningLevel;
     private final int itemDurability;

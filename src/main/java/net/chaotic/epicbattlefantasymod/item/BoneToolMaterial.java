@@ -7,7 +7,7 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum BoneToolMaterial implements ToolMaterial {
-    BONE(5, 100, 4.0F, 4.0F, 24, () -> Ingredient.ofItems(Items.BONE));
+    BONE(5, 100, 4.0F, 2.0F, 15, () -> Ingredient.ofItems(Items.BONE));
 
     private final int miningLevel;
     private final int itemDurability;

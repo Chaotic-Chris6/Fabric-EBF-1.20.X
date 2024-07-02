@@ -6,7 +6,7 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum GuitarToolMaterial implements ToolMaterial {
-    GAME_CHILD(5, 80, 6.0F, 2.0F, 100, () -> Ingredient.ofItems(ModItems.GAME_CHILD));
+    GAME_CHILD(5, 80, 6.0F, 3.0F, 100, () -> Ingredient.ofItems(ModItems.GAME_CHILD));
 
     private final int miningLevel;
     private final int itemDurability;
