@@ -13,7 +13,7 @@ public class DarkStalker extends SwordItem {
         super(toolMaterial, attackDamage, attackSpeed, settings);
     }
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker){
-        target.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, 20, 1));
+        target.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, 100, 1));
         return false;
     }
 }

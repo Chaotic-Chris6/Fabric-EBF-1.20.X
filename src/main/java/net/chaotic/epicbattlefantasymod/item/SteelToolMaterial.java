@@ -5,7 +5,8 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum SteelToolMaterial implements ToolMaterial {
-    STEEL_PLATE(3, 300, 6.0F, 3.0F, 30, () -> Ingredient.ofItems(ModItems.STEEL_PLATE));
+    STEEL_PLATE(3, 300, 6.0F, 3.0F, 14, () -> Ingredient.ofItems(ModItems.STEEL_PLATE)),
+    IRON_PLATE(3, 400, 6.0F, 3.0F, 3, () -> Ingredient.ofItems(ModItems.IRON_PLATE));
 
     private final int miningLevel;
     private final int itemDurability;
