@@ -159,6 +159,7 @@ public class ModItems {
         entries.add(LOVE_BLADE);
     }
 
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(EpicBattleFantasyMod.MOD_ID, name), item);
     }

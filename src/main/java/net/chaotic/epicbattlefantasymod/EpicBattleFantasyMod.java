@@ -1,5 +1,6 @@
 package net.chaotic.epicbattlefantasymod;
 
+import net.chaotic.epicbattlefantasymod.item.ModItemGroups;
 import net.chaotic.epicbattlefantasymod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,7 +13,7 @@ public class EpicBattleFantasyMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 	}
 }

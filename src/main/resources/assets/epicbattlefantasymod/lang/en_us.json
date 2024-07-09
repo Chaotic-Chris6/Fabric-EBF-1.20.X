@@ -71,5 +71,6 @@
   "item.epicbattlefantasymod.fusion_blade": "Fusion Blade",
   "item.epicbattlefantasymod.soul_eater": "Soul Eater",
   "item.epicbattlefantasymod.love_blade": "Love Blade",
-  "block.epicbattlefantasymod.slime_cat_pedestal": "Slime Cat Pedestal"
+  "block.epicbattlefantasymod.slime_cat_pedestal": "Slime Cat Pedestal",
+  "itemgroup.ebf": "EBF Items"
 }
