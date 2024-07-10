@@ -2,6 +2,7 @@ package net.chaotic.epicbattlefantasymod;
 
 import net.chaotic.epicbattlefantasymod.item.ModItemGroups;
 import net.chaotic.epicbattlefantasymod.item.ModItems;
+import net.chaotic.epicbattlefantasymod.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -15,5 +16,7 @@ public class EpicBattleFantasyMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+
+		ModLootTableModifiers.modifyLootTables();
 	}
 }
