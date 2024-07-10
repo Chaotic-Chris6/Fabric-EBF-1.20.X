@@ -65,6 +65,12 @@ public class ModItems {
     public static final Item PINEAPPLE  = registerItem("pineapple", new Item(new Item.Settings().food(ModFoodComponents.PINEAPPLE)));
     public static final Item DRAGON_FRUIT  = registerItem("dragon_fruit", new Item(new Item.Settings().food(ModFoodComponents.DRAGON_FRUIT)));
     public static final Item RASPBERRIES  = registerItem("raspberries", new Item(new Item.Settings().food(ModFoodComponents.RASPBERRIES)));
+    public static final Item BLUEBERRIES  = registerItem("blueberries", new Item(new Item.Settings().food(ModFoodComponents.BLUEBERRIES)));
+    public static final Item CLOUDBERRIES  = registerItem("cloudberries", new Item(new Item.Settings().food(ModFoodComponents.CLOUDBERRIES)));
+    public static final Item GARLIC  = registerItem("garlic", new Garlic(new Item.Settings().food(ModFoodComponents.GARLIC)));
+    public static final Item BANANA  = registerItem("banana", new Banana(new Item.Settings().food(ModFoodComponents.BANANA)));
+    public static final Item PRETZEL  = registerItem("pretzel", new Pretzel(new Item.Settings().food(ModFoodComponents.PRETZEL)));
+    public static final Item CUPCAKE  = registerItem("cupcake", new Item(new Item.Settings().food(ModFoodComponents.CUPCAKE)));
 
     public static final Item HEAVENS_GATE = registerItem("heavens_gate", new HeavensGate(SteelToolMaterial.STEEL_PLATE, 3, -3.23f, new Item.Settings()));
     public static final Item BERSERKER = registerItem("berserker", new Berserker(BrickToolMaterial.BRICK, 6, -3.4f, new Item.Settings()));
@@ -145,6 +151,12 @@ public class ModItems {
         entries.add(PINEAPPLE);
         entries.add(DRAGON_FRUIT);
         entries.add(RASPBERRIES);
+        entries.add(BLUEBERRIES);
+        entries.add(CLOUDBERRIES);
+        entries.add(GARLIC);
+        entries.add(BANANA);
+        entries.add(PRETZEL);
+        entries.add(CUPCAKE);
     }
     private static void addItemsToCombatItemGroup(FabricItemGroupEntries entries){
         entries.add(HEAVENS_GATE);
