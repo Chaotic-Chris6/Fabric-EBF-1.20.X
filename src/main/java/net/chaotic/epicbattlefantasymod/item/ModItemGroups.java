@@ -66,6 +66,9 @@ public class ModItemGroups {
                         entries.add(ModItems.MYTHRIL_SHARDS);
                         entries.add(ModItems.STAR_FRAGMENT);
 
+                        entries.add(ModItems.PINEAPPLE);
+                        entries.add(ModItems.DRAGON_FRUIT);
+
                         entries.add(ModItems.HEAVENS_GATE);
                         entries.add(ModItems.BERSERKER);
                         entries.add(ModItems.INFERNO);

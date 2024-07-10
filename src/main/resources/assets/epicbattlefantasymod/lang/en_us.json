@@ -50,6 +50,10 @@
   "item.epicbattlefantasymod.the_holy_grail": "The Holy Grail",
   "item.epicbattlefantasymod.titanium": "Titanium",
   "item.epicbattlefantasymod.topaz": "Topaz",
+
+  "item.epicbattlefantasymod.pineapple": "Pineapple",
+  "item.epicbattlefantasymod.dragon_fruit": "Dragon Fruit",
+
   "item.epicbattlefantasymod.heavens_gate": "Heaven's Gate",
   "item.epicbattlefantasymod.berserker": "Berserker",
   "item.epicbattlefantasymod.inferno": "Inferno",
@@ -71,6 +75,8 @@
   "item.epicbattlefantasymod.fusion_blade": "Fusion Blade",
   "item.epicbattlefantasymod.soul_eater": "Soul Eater",
   "item.epicbattlefantasymod.love_blade": "Love Blade",
+
   "block.epicbattlefantasymod.slime_cat_pedestal": "Slime Cat Pedestal",
+
   "itemgroup.ebf": "EBF Items"
 }

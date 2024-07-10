@@ -1,6 +1,7 @@
 package net.chaotic.epicbattlefantasymod.item;
 
 import net.chaotic.epicbattlefantasymod.EpicBattleFantasyMod;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
@@ -60,6 +61,10 @@ public class ModItems {
     public static final Item THE_HOLY_GRAIL  = registerItem("the_holy_grail", new Item(new Item.Settings()));
     public static final Item TITANIUM  = registerItem("titanium", new Item(new Item.Settings()));
     public static final Item TOPAZ  = registerItem("topaz", new Item(new Item.Settings()));
+
+    public static final Item PINEAPPLE  = registerItem("pineapple", new Item(new Item.Settings().food(ModFoodComponents.PINEAPPLE)));
+    public static final Item DRAGON_FRUIT  = registerItem("dragon_fruit", new Item(new Item.Settings().food(ModFoodComponents.DRAGON_FRUIT)));
+
     public static final Item HEAVENS_GATE = registerItem("heavens_gate", new HeavensGate(SteelToolMaterial.STEEL_PLATE, 3, -3.23f, new Item.Settings()));
     public static final Item BERSERKER = registerItem("berserker", new Berserker(BrickToolMaterial.BRICK, 6, -3.4f, new Item.Settings()));
     public static final Item INFERNO = registerItem("inferno", new Inferno(FireToolMaterial.FIRE, 5, -3f, new Item.Settings()));
@@ -135,6 +140,10 @@ public class ModItems {
         entries.add(MYTHRIL_SHARDS);
         entries.add(STAR_FRAGMENT);
     }
+    private static void addItemsToFoodItemGroup(FabricItemGroupEntries entries){
+        entries.add(PINEAPPLE);
+        entries.add(DRAGON_FRUIT);
+    }
     private static void addItemsToCombatItemGroup(FabricItemGroupEntries entries){
         entries.add(HEAVENS_GATE);
         entries.add(BERSERKER);
@@ -169,5 +178,6 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addItemsToCombatItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemsToFoodItemGroup);
     }
 }
