@@ -10,6 +10,9 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+
+    //Materials
+
     public static final Item SPRING = registerItem("spring", new Item(new Item.Settings()));
     public static final Item EARTH_BALL = registerItem("earth_ball", new Item(new Item.Settings()));
     public static final Item AMBER = registerItem("amber", new Item(new Item.Settings()));
@@ -62,6 +65,8 @@ public class ModItems {
     public static final Item TITANIUM  = registerItem("titanium", new Item(new Item.Settings()));
     public static final Item TOPAZ  = registerItem("topaz", new Item(new Item.Settings()));
 
+    //Food
+
     public static final Item PINEAPPLE  = registerItem("pineapple", new Item(new Item.Settings().food(ModFoodComponents.PINEAPPLE)));
     public static final Item DRAGON_FRUIT  = registerItem("dragon_fruit", new Item(new Item.Settings().food(ModFoodComponents.DRAGON_FRUIT)));
     public static final Item RASPBERRIES  = registerItem("raspberries", new Item(new Item.Settings().food(ModFoodComponents.RASPBERRIES)));
@@ -71,6 +76,20 @@ public class ModItems {
     public static final Item BANANA  = registerItem("banana", new Banana(new Item.Settings().food(ModFoodComponents.BANANA)));
     public static final Item PRETZEL  = registerItem("pretzel", new Pretzel(new Item.Settings().food(ModFoodComponents.PRETZEL)));
     public static final Item CUPCAKE  = registerItem("cupcake", new Item(new Item.Settings().food(ModFoodComponents.CUPCAKE)));
+    public static final Item BEER  = registerItem("beer", new Item(new Item.Settings().food(ModFoodComponents.BEER)));
+    public static final Item COLA  = registerItem("cola", new Item(new Item.Settings().food(ModFoodComponents.COLA)));
+    public static final Item IRON_BREW  = registerItem("iron_brew", new Item(new Item.Settings().food(ModFoodComponents.IRON_BREW)));
+    public static final Item ENERGY_DRINK  = registerItem("energy_drink", new Item(new Item.Settings().food(ModFoodComponents.ENERGY_DRINK)));
+    public static final Item COFFEE = registerItem("coffee", new Item(new Item.Settings()));
+    public static final Item EXPRESSO = registerItem("expresso", new Item(new Item.Settings()));
+    public static final Item CHILI_PEPPER  = registerItem("chili_pepper", new Item(new Item.Settings().food(ModFoodComponents.CHILI_PEPPER)));
+    public static final Item ORANGE_JUICE  = registerItem("orange_juice", new Item(new Item.Settings().food(ModFoodComponents.ORANGE_JUICE)));
+    public static final Item CRISPS  = registerItem("crisps", new Item(new Item.Settings().food(ModFoodComponents.CRISPS)));
+    public static final Item CHIPS  = registerItem("chips", new Item(new Item.Settings().food(ModFoodComponents.CHIPS)));
+    public static final Item HAMBURGER  = registerItem("hamburger", new Item(new Item.Settings().food(ModFoodComponents.HAMBURGER)));
+    public static final Item PIZZA  = registerItem("pizza", new Item(new Item.Settings().food(ModFoodComponents.PIZZA)));
+
+    //Swords
 
     public static final Item HEAVENS_GATE = registerItem("heavens_gate", new HeavensGate(SteelToolMaterial.STEEL_PLATE, 3, -3.23f, new Item.Settings()));
     public static final Item BERSERKER = registerItem("berserker", new Berserker(BrickToolMaterial.BRICK, 6, -3.4f, new Item.Settings()));
@@ -157,6 +176,18 @@ public class ModItems {
         entries.add(BANANA);
         entries.add(PRETZEL);
         entries.add(CUPCAKE);
+        entries.add(BEER);
+        entries.add(COLA);
+        entries.add(IRON_BREW);
+        entries.add(ENERGY_DRINK);
+        entries.add(COFFEE);
+        entries.add(EXPRESSO);
+        entries.add(CHILI_PEPPER);
+        entries.add(ORANGE_JUICE);
+        entries.add(CRISPS);
+        entries.add(CHIPS);
+        entries.add(HAMBURGER);
+        entries.add(PIZZA);
     }
     private static void addItemsToCombatItemGroup(FabricItemGroupEntries entries){
         entries.add(HEAVENS_GATE);

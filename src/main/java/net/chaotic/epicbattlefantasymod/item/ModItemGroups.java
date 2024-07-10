@@ -75,6 +75,18 @@ public class ModItemGroups {
                         entries.add(ModItems.BANANA);
                         entries.add(ModItems.PRETZEL);
                         entries.add(ModItems.CUPCAKE);
+                        entries.add(ModItems.BEER);
+                        entries.add(ModItems.COLA);
+                        entries.add(ModItems.IRON_BREW);
+                        entries.add(ModItems.ENERGY_DRINK);
+                        entries.add(ModItems.COFFEE);
+                        entries.add(ModItems.EXPRESSO);
+                        entries.add(ModItems.CHILI_PEPPER);
+                        entries.add(ModItems.ORANGE_JUICE);
+                        entries.add(ModItems.CRISPS);
+                        entries.add(ModItems.CHIPS);
+                        entries.add(ModItems.HAMBURGER);
+                        entries.add(ModItems.PIZZA);
 
                         entries.add(ModItems.HEAVENS_GATE);
                         entries.add(ModItems.BERSERKER);
