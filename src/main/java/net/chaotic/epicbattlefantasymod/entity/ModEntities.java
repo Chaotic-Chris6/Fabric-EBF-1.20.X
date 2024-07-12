@@ -1,5 +1,6 @@
 package net.chaotic.epicbattlefantasymod.entity;
 
+import net.chaotic.epicbattlefantasymod.entity.custom.HandBombProjectileEntity;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.chaotic.epicbattlefantasymod.EpicBattleFantasyMod;
 import net.chaotic.epicbattlefantasymod.entity.custom.ShurikenProjectileEntity;
@@ -15,6 +16,10 @@ public class ModEntities {
     public static final EntityType<ShurikenProjectileEntity> SHURIKEN_PROJECTILE = Registry.register(Registries.ENTITY_TYPE,
             new Identifier(EpicBattleFantasyMod.MOD_ID, "shuriken_projectile"),
             FabricEntityTypeBuilder.<ShurikenProjectileEntity>create(SpawnGroup.MISC, ShurikenProjectileEntity::new)
+                    .dimensions(EntityDimensions.fixed(0.25f, 0.25f)).build());
+    public static final EntityType<HandBombProjectileEntity> HAND_BOMB_PROJECTILE = Registry.register(Registries.ENTITY_TYPE,
+            new Identifier(EpicBattleFantasyMod.MOD_ID, "hand_bomb_projectile"),
+            FabricEntityTypeBuilder.<HandBombProjectileEntity>create(SpawnGroup.MISC, HandBombProjectileEntity::new)
                     .dimensions(EntityDimensions.fixed(0.25f, 0.25f)).build());
 
 }

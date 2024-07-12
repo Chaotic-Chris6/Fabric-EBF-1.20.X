@@ -32,7 +32,7 @@ public class ModItems {
     public static final Item GEODE  = registerItem("geode", new Item(new Item.Settings()));
     public static final Item GLASS_SHARDS  = registerItem("glass_shards", new Item(new Item.Settings()));
     public static final Item GOLD_PLATE  = registerItem("gold_plate", new Item(new Item.Settings()));
-    public static final Item HAND_BOMB  = registerItem("hand_bomb", new Item(new Item.Settings()));
+    public static final Item HAND_BOMB  = registerItem("hand_bomb", new HandBomb(new Item.Settings()));
     public static final Item IRON_PLATE  = registerItem("iron_plate", new Item(new Item.Settings()));
     public static final Item JUNGLE_FLOWER  = registerItem("jungle_flower", new Item(new Item.Settings()));
     public static final Item LECKO_BRICK  = registerItem("lecko_brick", new Item(new Item.Settings()));

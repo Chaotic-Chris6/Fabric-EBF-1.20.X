@@ -10,5 +10,6 @@ public class EpicBattleFantasyModClient implements ClientModInitializer {
     public void onInitializeClient() {
 
         EntityRendererRegistry.register(ModEntities.SHURIKEN_PROJECTILE, FlyingItemEntityRenderer::new);
+        EntityRendererRegistry.register(ModEntities.HAND_BOMB_PROJECTILE, FlyingItemEntityRenderer::new);
     }
 }
