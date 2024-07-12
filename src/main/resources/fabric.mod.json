@@ -3,7 +3,7 @@
 	"id": "epicbattlefantasymod",
 	"version": "${version}",
 	"name": "Epic Battle Fantasy Mod",
-	"description": "A mod that adds many items, weapons, and more from the Epic Battle Fantasy series.",
+	"description": "A mod that adds many items, weapons, and more from the Epic Battle Fantasy series. Weapons are mostly found in structures but some are mob drops. Credit to Kupo Games for making these great games.",
 	"authors": [
 		"Chaotic Chris"
 	],
