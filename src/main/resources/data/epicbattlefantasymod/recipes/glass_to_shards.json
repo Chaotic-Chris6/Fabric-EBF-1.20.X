@@ -3,10 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "minecraft:dirt"
+      "item": "minecraft:glass"
     }
   ],
   "result": {
-    "item": "epicbattlefantasymod:earth_ball"
+    "item": "epicbattlefantasymod:glass_shards",
+    "count": 4
   }
 }
