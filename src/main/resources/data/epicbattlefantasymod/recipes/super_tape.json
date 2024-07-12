@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "S": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "pattern": [
+    "   ",
+    "PPP",
+    "SSS"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:super_tape",
+    "count": 3
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "epicbattlefantasymod:gold_plate"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_ingot",
+    "count": 6
+  }
+}

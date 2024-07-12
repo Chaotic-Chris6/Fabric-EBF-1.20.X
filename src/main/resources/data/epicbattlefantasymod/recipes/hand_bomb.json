@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "I": {
+      "item": "epicbattlefantasymod:iron_plate"
+    }
+  },
+  "pattern": [
+    " S ",
+    "IGI",
+    " I "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:hand_bomb"
+  }
+}
