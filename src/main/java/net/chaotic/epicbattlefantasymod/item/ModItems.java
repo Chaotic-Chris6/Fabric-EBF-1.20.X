@@ -1,7 +1,7 @@
 package net.chaotic.epicbattlefantasymod.item;
 
 import net.chaotic.epicbattlefantasymod.EpicBattleFantasyMod;
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.chaotic.epicbattlefantasymod.item.custom.*;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
@@ -53,7 +53,7 @@ public class ModItems {
     public static final Item SAPPHIRE  = registerItem("sapphire", new Item(new Item.Settings()));
     public static final Item SATIN  = registerItem("satin", new Item(new Item.Settings()));
     public static final Item SEA_SHELL  = registerItem("sea_shell", new Item(new Item.Settings()));
-    public static final Item SHURIKEN  = registerItem("shuriken", new Item(new Item.Settings()));
+    public static final Item SHURIKEN  = registerItem("shuriken", new Shuriken(new Item.Settings()));
     public static final Item SILK  = registerItem("silk", new Item(new Item.Settings()));
     public static final Item SILVER_PLATE  = registerItem("silver_plate", new Item(new Item.Settings()));
     public static final Item SOFT_WOOD  = registerItem("soft_wood", new Item(new Item.Settings()));
