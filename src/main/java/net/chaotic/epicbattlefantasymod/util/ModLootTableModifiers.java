@@ -207,7 +207,7 @@ public class ModLootTableModifiers {
     private static final Identifier ZOMBIE_VILLAGER_ID =
             new Identifier("minecraft", "entities/zombie_villager");
     private static final Identifier ZOMBIFIED_PIGLIN_ID =
-            new Identifier("minecraft", "entities/zombiflied_piglin");
+            new Identifier("minecraft", "entities/zombified_piglin");
 
     public static void modifyLootTables() {
         LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
@@ -3337,7 +3337,7 @@ public class ModLootTableModifiers {
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.25f))
                         .with(ItemEntry.builder(ModItems.BONE_SPIKE))
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0.0f, 6.0f)).build());
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 6.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
             }
@@ -3356,7 +3356,7 @@ public class ModLootTableModifiers {
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.25f))
                         .with(ItemEntry.builder(ModItems.BONE_SPIKE))
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0.0f, 6.0f)).build());
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 6.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
             }
