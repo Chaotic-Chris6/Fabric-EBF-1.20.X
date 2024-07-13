@@ -473,9 +473,9 @@ public class ModLootTableModifiers {
             if(VILLAGE_PLAINS_HOUSE_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.20f))
+                        .conditionally(RandomChanceLootCondition.builder(0.42f))
                         .with(ItemEntry.builder(ModItems.AN_HERB))
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 4.0f)).build());
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0f, 4.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
             }
@@ -518,7 +518,7 @@ public class ModLootTableModifiers {
             if(VILLAGE_PLAINS_HOUSE_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.5f))
+                        .conditionally(RandomChanceLootCondition.builder(0.25f))
                         .with(ItemEntry.builder(ModItems.COFFEE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
@@ -547,7 +547,7 @@ public class ModLootTableModifiers {
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.01f))
                         .with(ItemEntry.builder(ModItems.PIZZA))
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 2.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
             }
@@ -3383,7 +3383,7 @@ public class ModLootTableModifiers {
             if(SNIFFER_ID    .equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.042f))
+                        .conditionally(RandomChanceLootCondition.builder(0.42f))
                         .with(ItemEntry.builder(ModItems.AN_HERB))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(4.0f, 20.0f)).build());
 
@@ -3392,7 +3392,7 @@ public class ModLootTableModifiers {
             if(SNIFFER_ID    .equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.05f))
+                        .conditionally(RandomChanceLootCondition.builder(0.5f))
                         .with(ItemEntry.builder(ModItems.GASH_ROOT))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 10.0f)).build());
 
