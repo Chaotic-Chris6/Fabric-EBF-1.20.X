@@ -137,6 +137,30 @@ public class ModItems {
     public static final Item SOUL_EATER2 = registerItem("soul_eater2", new SoulEater(RazorClawToolMaterial.IRON_PLATE, 3, -3.34f, new Item.Settings()));
     public static final Item LOVE_BLADE2 = registerItem("love_blade2", new LoveBlade(JungleFlowerToolMaterial.JUNGLE_FLOWER, 0, -3.0f, new Item.Settings()));
 
+    //Swords 3
+
+    public static final Item HEAVENS_GATE3 = registerItem("heavens_gate3", new HeavensGate(SteelToolMaterial.STEEL_PLATE, 5, -3.23f, new Item.Settings()));
+    public static final Item BERZERKER3 = registerItem("berzerker3", new Berzerker(BrickToolMaterial.BRICK, 8, -3.4f, new Item.Settings()));
+    public static final Item INFERNO3 = registerItem("inferno3", new Inferno(FireToolMaterial.FIRE, 7, -2.5f, new Item.Settings()));
+    public static final Item ICE_NEEDLE3 = registerItem("ice_needle3", new IceNeedle(IceToolMaterial.ICE, 4, -3.1f, new Item.Settings()));
+    public static final Item LIGHTNING_SHARD3 = registerItem("lightning_shard3", new SwordItem(TopazToolMaterial.TOPAZ, 4, 0.5f, new Item.Settings()));
+    public static final Item SAPPHIRE_SAINT3 = registerItem("sapphire_saint3", new SapphireSaint(SapphireToolMaterial.SAPPHIRE, 5, -2.5f, new Item.Settings()));
+    public static final Item BLACK_FANG3 = registerItem("black_fang3", new BlackFang(OpalToolMaterial.OPAL, 2, -2.0f, new Item.Settings()));
+    public static final Item THE_CHOPPER3 = registerItem("the_chopper3", new TheChopper(WoodToolMaterial.STEEL_PLATE, 3, -3.0f, new Item.Settings()));
+    public static final Item GIANT_SLAYER3 = registerItem("giant_slayer3", new SwordItem(SteelToolMaterial.IRON_PLATE, 15, -3.6f, new Item.Settings()));
+    public static final Item HYPER_DRILL3 = registerItem("hyper_drill3", new PickaxeItem(DrillToolMaterial.STEEL_PLATE, 4, -3.0f, new Item.Settings()));
+    public static final Item EMERALD_SMASHER3 = registerItem("emerald_smasher3", new PickaxeItem(EmeraldToolMaterial.EMERALD, 6, -3.2f, new Item.Settings()));
+    public static final Item DEVILS_FORK3 = registerItem("devils_fork3", new DevilsFork(FireToolMaterial.IRON_PLATE, 4, -3.2f, new Item.Settings()));
+    public static final Item ULTRA_PRO3 = registerItem("ultra_pro3", new SwordItem(WoodToolMaterial.SOFT_WOOD, 2, 1.0f, new Item.Settings()));
+    public static final Item CLUB_OF_WITHERING3 = registerItem("club_of_withering3", new ClubOfWithering(BoneToolMaterial.BONE, 2, -3.0f, new Item.Settings()));
+    public static final Item CRIMSON_RAZORBACK3 = registerItem("crimson_razorback3", new SwordItem(GuitarToolMaterial.GAME_CHILD, 1, -3.0f, new Item.Settings()));
+    public static final Item DRAGONS_FEATHER3 = registerItem("dragons_feather3", new DragonsFeather(FeatherToolMaterial.FEATHER, 5, -0.5f, new Item.Settings()));
+    public static final Item GOLDEN_AXE3 = registerItem("golden_axe3", new GoldenAxe(GoldPlateToolMaterial.GOLD_PLATE, 6, -2.0f, new Item.Settings()));
+    public static final Item DARK_STALKER3 = registerItem("dark_stalker3", new DarkStalker(RazorClawToolMaterial.RAZOR_CLAW, 3, -2.9f, new Item.Settings()));
+    public static final Item FUSION_BLADE3 = registerItem("fusion_blade3", new SwordItem(FusionToolMaterial.METAL_GEAR, 4, -2.5f, new Item.Settings()));
+    public static final Item SOUL_EATER3 = registerItem("soul_eater3", new SoulEater(RazorClawToolMaterial.IRON_PLATE, 5, -3.34f, new Item.Settings()));
+    public static final Item LOVE_BLADE3 = registerItem("love_blade3", new LoveBlade(JungleFlowerToolMaterial.JUNGLE_FLOWER, 0, -3.0f, new Item.Settings()));
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(EARTH_BALL);
         entries.add(SEA_SHELL);
@@ -216,46 +240,67 @@ public class ModItems {
     private static void addItemsToCombatItemGroup(FabricItemGroupEntries entries){
         entries.add(HEAVENS_GATE);
         entries.add(HEAVENS_GATE2);
+        entries.add(HEAVENS_GATE3);
         entries.add(BERZERKER);
         entries.add(BERZERKER2);
+        entries.add(BERZERKER3);
         entries.add(INFERNO);
         entries.add(INFERNO2);
+        entries.add(INFERNO3);
         entries.add(ICE_NEEDLE);
         entries.add(ICE_NEEDLE2);
+        entries.add(ICE_NEEDLE3);
         entries.add(LIGHTNING_SHARD);
         entries.add(LIGHTNING_SHARD2);
+        entries.add(LIGHTNING_SHARD3);
         entries.add(SAPPHIRE_SAINT);
         entries.add(SAPPHIRE_SAINT2);
+        entries.add(SAPPHIRE_SAINT3);
         entries.add(BLACK_FANG);
         entries.add(BLACK_FANG2);
+        entries.add(BLACK_FANG3);
         entries.add(THE_CHOPPER);
         entries.add(THE_CHOPPER2);
+        entries.add(THE_CHOPPER3);
         entries.add(GIANT_SLAYER);
         entries.add(GIANT_SLAYER2);
+        entries.add(GIANT_SLAYER3);
         entries.add(HYPER_DRILL);
         entries.add(HYPER_DRILL2);
+        entries.add(HYPER_DRILL3);
         entries.add(EMERALD_SMASHER);
         entries.add(EMERALD_SMASHER2);
+        entries.add(EMERALD_SMASHER3);
         entries.add(DEVILS_FORK);
         entries.add(DEVILS_FORK2);
+        entries.add(DEVILS_FORK3);
         entries.add(ULTRA_PRO);
         entries.add(ULTRA_PRO2);
+        entries.add(ULTRA_PRO3);
         entries.add(CLUB_OF_WITHERING);
         entries.add(CLUB_OF_WITHERING2);
+        entries.add(CLUB_OF_WITHERING3);
         entries.add(CRIMSON_RAZORBACK);
         entries.add(CRIMSON_RAZORBACK2);
+        entries.add(CRIMSON_RAZORBACK3);
         entries.add(DRAGONS_FEATHER);
         entries.add(DRAGONS_FEATHER2);
+        entries.add(DRAGONS_FEATHER3);
         entries.add(GOLDEN_AXE);
         entries.add(GOLDEN_AXE2);
+        entries.add(GOLDEN_AXE3);
         entries.add(DARK_STALKER);
         entries.add(DARK_STALKER2);
+        entries.add(DARK_STALKER3);
         entries.add(FUSION_BLADE);
         entries.add(FUSION_BLADE2);
+        entries.add(FUSION_BLADE3);
         entries.add(SOUL_EATER);
         entries.add(SOUL_EATER2);
+        entries.add(SOUL_EATER3);
         entries.add(LOVE_BLADE);
         entries.add(LOVE_BLADE2);
+        entries.add(LOVE_BLADE3);
     }
 
 

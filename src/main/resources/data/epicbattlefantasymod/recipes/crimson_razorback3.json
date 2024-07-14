@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "epicbattlefantasymod:spring"
+    },
+    "B": {
+      "item": "epicbattlefantasymod:beer"
+    },
+    "C": {
+      "item": "epicbattlefantasymod:crimson_razorback2"
+    }
+  },
+  "pattern": [
+    "SSS",
+    " C ",
+    "SBS"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:crimson_razorback3"
+  }
+}

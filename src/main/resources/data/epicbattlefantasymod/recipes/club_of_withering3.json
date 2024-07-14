@@ -5,16 +5,16 @@
     "R": {
       "item": "epicbattlefantasymod:razor_claw"
     },
-    "D": {
-      "item": "epicbattlefantasymod:dark_stalker"
+    "C": {
+      "item": "epicbattlefantasymod:club_of_withering2"
     }
   },
   "pattern": [
-    " R ",
-    " D ",
+    "  R",
+    " CR",
     "   "
   ],
   "result": {
-    "item": "epicbattlefantasymod:dark_stalker2"
+    "item": "epicbattlefantasymod:club_of_withering3"
   }
 }

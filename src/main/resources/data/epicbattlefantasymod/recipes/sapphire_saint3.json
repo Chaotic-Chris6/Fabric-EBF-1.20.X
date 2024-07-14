@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": {
+      "item": "epicbattlefantasymod:solid_water"
+    },
+    "L": {
+      "item": "epicbattlefantasymod:liquid_ice"
+    },
+    "S": {
+      "item": "epicbattlefantasymod:sapphire_saint2"
+    }
+  },
+  "pattern": [
+    " L ",
+    " W ",
+    " S "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:sapphire_saint3"
+  }
+}

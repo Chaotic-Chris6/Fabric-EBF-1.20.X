@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "epicbattlefantasymod:iron_plate"
+    },
+    "C": {
+      "item": "epicbattlefantasymod:copper_pipe"
+    },
+    "E": {
+      "item": "epicbattlefantasymod:emerald_smasher2"
+    }
+  },
+  "pattern": [
+    "III",
+    "CEC",
+    "III"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:emerald_smasher3"
+  }
+}

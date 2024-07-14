@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "M": {
+      "item": "epicbattlefantasymod:magma_chunk"
+    },
+    "D": {
+      "item": "epicbattlefantasymod:devils_fork2"
+    }
+  },
+  "pattern": [
+    "GMG",
+    " D ",
+    " M "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:devils_fork3"
+  }
+}

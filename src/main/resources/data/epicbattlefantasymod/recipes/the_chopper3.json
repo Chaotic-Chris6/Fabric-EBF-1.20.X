@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "epicbattlefantasymod:steel_plate"
+    },
+    "T": {
+      "item": "epicbattlefantasymod:the_chopper2"
+    }
+  },
+  "pattern": [
+    " SS",
+    "TSS",
+    "   "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:the_chopper3"
+  }
+}

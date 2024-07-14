@@ -5,16 +5,16 @@
     "R": {
       "item": "epicbattlefantasymod:razor_claw"
     },
-    "D": {
-      "item": "epicbattlefantasymod:dark_stalker"
+    "S": {
+      "item": "epicbattlefantasymod:soul_eater2"
     }
   },
   "pattern": [
-    " R ",
-    " D ",
-    "   "
+    "   ",
+    "RSR",
+    " R "
   ],
   "result": {
-    "item": "epicbattlefantasymod:dark_stalker2"
+    "item": "epicbattlefantasymod:soul_eater3"
   }
 }

@@ -6,15 +6,15 @@
       "item": "epicbattlefantasymod:razor_claw"
     },
     "D": {
-      "item": "epicbattlefantasymod:dark_stalker"
+      "item": "epicbattlefantasymod:dark_stalker2"
     }
   },
   "pattern": [
-    " R ",
-    " D ",
+    "   ",
+    "RDR",
     "   "
   ],
   "result": {
-    "item": "epicbattlefantasymod:dark_stalker2"
+    "item": "epicbattlefantasymod:dark_stalker3"
   }
 }

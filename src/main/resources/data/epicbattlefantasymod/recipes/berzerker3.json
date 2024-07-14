@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:brick"
+    },
+    "E": {
+      "item": "epicbattlefantasymod:earth_ball"
+    },
+    "Z": {
+      "item": "epicbattlefantasymod:berzerker2"
+    }
+  },
+  "pattern": [
+    "EEB",
+    "EZB",
+    "EBB"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:berzerker3"
+  }
+}

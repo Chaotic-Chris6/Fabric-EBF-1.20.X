@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "epicbattlefantasymod:steel_plate"
+    },
+    "H": {
+      "item": "epicbattlefantasymod:heavens_gate2"
+    }
+  },
+  "pattern": [
+    "S S",
+    "SHS",
+    "   "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:heavens_gate3"
+  }
+}

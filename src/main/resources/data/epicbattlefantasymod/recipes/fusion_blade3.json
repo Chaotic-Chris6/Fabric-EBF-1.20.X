@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "epicbattlefantasymod:metal_gear"
+    },
+    "S": {
+      "item": "epicbattlefantasymod:steel_plate"
+    },
+    "F": {
+      "item": "epicbattlefantasymod:fusion_blade2"
+    }
+  },
+  "pattern": [
+    "MM ",
+    "MFM",
+    " S "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:fusion_blade3"
+  }
+}
