@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "minecraft:lava_bucket"
+    },
+    "M": {
+      "item": "epicbattlefantasymod:magma_chunk"
+    },
+    "D": {
+      "item": "epicbattlefantasymod:devils_fork3"
+    }
+  },
+  "pattern": [
+    "MLM",
+    "MDM",
+    "MMM"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:devils_fork4"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "epicbattlefantasymod:sapphire"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "D": {
+      "item": "epicbattlefantasymod:dragons_feather3"
+    }
+  },
+  "pattern": [
+    "FSF",
+    "FDF",
+    " E "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:dragons_feather4"
+  }
+}

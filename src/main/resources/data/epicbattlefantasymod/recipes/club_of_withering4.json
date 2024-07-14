@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "epicbattlefantasymod:bone_spike"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "C": {
+      "item": "epicbattlefantasymod:club_of_withering3"
+    }
+  },
+  "pattern": [
+    " BB",
+    " CB",
+    " L "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:club_of_withering4"
+  }
+}

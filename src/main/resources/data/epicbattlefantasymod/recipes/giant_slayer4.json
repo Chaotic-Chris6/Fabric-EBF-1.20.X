@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "epicbattlefantasymod:steel_plate"
+    },
+    "C": {
+      "item": "epicbattlefantasymod:copper_pipe"
+    },
+    "G": {
+      "item": "epicbattlefantasymod:giant_slayer3"
+    }
+  },
+  "pattern": [
+    "SCS",
+    "SGS",
+    "SCS"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:giant_slayer4"
+  }
+}

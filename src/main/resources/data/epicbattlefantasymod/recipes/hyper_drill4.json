@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "epicbattlefantasymod:silver_plate"
+    },
+    "C": {
+      "item": "epicbattlefantasymod:copper_pipe"
+    },
+    "H": {
+      "item": "epicbattlefantasymod:hyper_drill3"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SHS",
+    "C C"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:hyper_drill4"
+  }
+}

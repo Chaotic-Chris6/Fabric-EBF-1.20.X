@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "P": {
+      "item": "epicbattlefantasymod:gold_plate"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "G": {
+      "item": "epicbattlefantasymod:golden_axe3"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "LGL",
+    "   "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:golden_axe4"
+  }
+}

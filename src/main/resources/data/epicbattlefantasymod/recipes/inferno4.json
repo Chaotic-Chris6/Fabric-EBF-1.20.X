@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "epicbattlefantasymod:magma_chunk"
+    },
+    "R": {
+      "item": "epicbattlefantasymod:ruby"
+    },
+    "I": {
+      "item": "epicbattlefantasymod:inferno3"
+    }
+  },
+  "pattern": [
+    "M M",
+    "MIM",
+    "R R"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:inferno4"
+  }
+}

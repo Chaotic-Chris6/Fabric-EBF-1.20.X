@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": {
+      "item": "epicbattlefantasymod:butterfly_wing"
+    },
+    "O": {
+      "item": "epicbattlefantasymod:opal"
+    },
+    "B": {
+      "item": "epicbattlefantasymod:black_fang3"
+    }
+  },
+  "pattern": [
+    "WOW",
+    "WBW",
+    "W W"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:black_fang4"
+  }
+}

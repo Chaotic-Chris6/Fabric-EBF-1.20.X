@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "P": {
+      "item": "epicbattlefantasymod:p2_processor"
+    },
+    "B": {
+      "item": "epicbattlefantasymod:beer"
+    },
+    "C": {
+      "item": "epicbattlefantasymod:crimson_razorback3"
+    }
+  },
+  "pattern": [
+    "P P",
+    " C ",
+    "BBB"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:crimson_razorback4"
+  }
+}

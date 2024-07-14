@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "epicbattlefantasymod:sacred_rune"
+    },
+    "A": {
+      "item": "epicbattlefantasymod:sapphire"
+    },
+    "S": {
+      "item": "epicbattlefantasymod:sapphire_saint3"
+    }
+  },
+  "pattern": [
+    "   ",
+    "RSR",
+    " A "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:sapphire_saint4"
+  }
+}

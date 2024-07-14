@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "epicbattlefantasymod:dragon_fruit"
+    },
+    "C": {
+      "item": "epicbattlefantasymod:cloudberries"
+    },
+    "L": {
+      "item": "epicbattlefantasymod:love_blade2"
+    }
+  },
+  "pattern": [
+    "DDC",
+    "DLC",
+    "DCC"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:love_blade3"
+  }
+}

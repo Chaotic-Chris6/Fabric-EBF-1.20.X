@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "epicbattlefantasymod:bio_virus"
+    },
+    "M": {
+      "item": "minecraft:emerald"
+    },
+    "E": {
+      "item": "epicbattlefantasymod:emerald_smasher3"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "BEB",
+    " B "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:emerald_smasher4"
+  }
+}

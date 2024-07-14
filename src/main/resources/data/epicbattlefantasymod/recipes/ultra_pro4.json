@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "epicbattlefantasymod:lecko_brick"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "U": {
+      "item": "epicbattlefantasymod:ultra_pro3"
+    }
+  },
+  "pattern": [
+    " LL",
+    "LUL",
+    "LB "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:ultra_pro4"
+  }
+}

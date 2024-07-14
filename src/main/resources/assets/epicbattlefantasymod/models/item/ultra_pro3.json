@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
         "textures": {
-          "layer0": "epicbattlefantasymod:item/ultra_pro3"
+          "layer0": "epicbattlefantasymod:item/ultra_pro"
         }
 }

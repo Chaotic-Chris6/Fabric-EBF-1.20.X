@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:brick"
+    },
+    "S": {
+      "item": "epicbattlefantasymod:sacred_rune"
+    },
+    "Z": {
+      "item": "epicbattlefantasymod:berzerker3"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SZS",
+    "BBB"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:berzerker4"
+  }
+}

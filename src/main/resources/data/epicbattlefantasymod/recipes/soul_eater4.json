@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "epicbattlefantasymod:bone_spike"
+    },
+    "A": {
+      "item": "epicbattlefantasymod:amber"
+    },
+    "S": {
+      "item": "epicbattlefantasymod:soul_eater3"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BSB",
+    "ABA"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:soul_eater4"
+  }
+}

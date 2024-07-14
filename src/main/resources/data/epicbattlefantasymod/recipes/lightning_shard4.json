@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "T": {
+      "item": "epicbattlefantasymod:topaz"
+    },
+    "G": {
+      "item": "epicbattlefantasymod:geode"
+    },
+    "L": {
+      "item": "epicbattlefantasymod:lightning_shard3"
+    }
+  },
+  "pattern": [
+    "T T",
+    " L ",
+    "G T"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:lightning_shard4"
+  }
+}

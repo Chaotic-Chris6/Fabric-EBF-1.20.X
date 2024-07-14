@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
         "textures": {
-          "layer0": "epicbattlefantasymod:item/devils_fork3"
+          "layer0": "epicbattlefantasymod:item/devils_fork"
         }
 }

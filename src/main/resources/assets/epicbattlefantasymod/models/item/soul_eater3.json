@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
         "textures": {
-          "layer0": "epicbattlefantasymod:item/soul_eater3"
+          "layer0": "epicbattlefantasymod:item/soul_eater"
         }
 }

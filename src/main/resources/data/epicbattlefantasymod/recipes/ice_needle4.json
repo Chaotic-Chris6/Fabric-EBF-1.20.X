@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": {
+      "item": "epicbattlefantasymod:solid_water"
+    },
+    "L": {
+      "item": "epicbattlefantasymod:liquid_ice"
+    },
+    "S": {
+      "item": "epicbattlefantasymod:sapphire"
+    },
+    "I": {
+      "item": "epicbattlefantasymod:ice_needle3"
+    }
+  },
+  "pattern": [
+    "WSW",
+    "SIS",
+    "L L"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:ice_needle4"
+  }
+}
