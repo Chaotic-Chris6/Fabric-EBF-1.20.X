@@ -89,26 +89,48 @@ public class ModItemGroups {
                         entries.add(ModItems.PIZZA);
 
                         entries.add(ModItems.HEAVENS_GATE);
+                        entries.add(ModItems.HEAVENS_GATE2);
                         entries.add(ModItems.BERZERKER);
+                        entries.add(ModItems.BERZERKER2);
                         entries.add(ModItems.INFERNO);
+                        entries.add(ModItems.INFERNO2);
                         entries.add(ModItems.ICE_NEEDLE);
+                        entries.add(ModItems.ICE_NEEDLE2);
                         entries.add(ModItems.LIGHTNING_SHARD);
+                        entries.add(ModItems.LIGHTNING_SHARD2);
                         entries.add(ModItems.SAPPHIRE_SAINT);
+                        entries.add(ModItems.SAPPHIRE_SAINT2);
                         entries.add(ModItems.BLACK_FANG);
+                        entries.add(ModItems.BLACK_FANG2);
                         entries.add(ModItems.THE_CHOPPER);
+                        entries.add(ModItems.THE_CHOPPER2);
                         entries.add(ModItems.GIANT_SLAYER);
+                        entries.add(ModItems.GIANT_SLAYER2);
                         entries.add(ModItems.HYPER_DRILL);
+                        entries.add(ModItems.HYPER_DRILL2);
                         entries.add(ModItems.EMERALD_SMASHER);
+                        entries.add(ModItems.EMERALD_SMASHER2);
                         entries.add(ModItems.DEVILS_FORK);
+                        entries.add(ModItems.DEVILS_FORK2);
                         entries.add(ModItems.ULTRA_PRO);
+                        entries.add(ModItems.ULTRA_PRO2);
                         entries.add(ModItems.CLUB_OF_WITHERING);
+                        entries.add(ModItems.CLUB_OF_WITHERING2);
                         entries.add(ModItems.CRIMSON_RAZORBACK);
+                        entries.add(ModItems.CRIMSON_RAZORBACK2);
                         entries.add(ModItems.DRAGONS_FEATHER);
+                        entries.add(ModItems.DRAGONS_FEATHER2);
                         entries.add(ModItems.GOLDEN_AXE);
+                        entries.add(ModItems.GOLDEN_AXE2);
                         entries.add(ModItems.DARK_STALKER);
+                        entries.add(ModItems.DARK_STALKER2);
                         entries.add(ModItems.FUSION_BLADE);
+                        entries.add(ModItems.FUSION_BLADE2);
                         entries.add(ModItems.SOUL_EATER);
+                        entries.add(ModItems.SOUL_EATER2);
                         entries.add(ModItems.LOVE_BLADE);
+                        entries.add(ModItems.LOVE_BLADE2);
+
                     }).build());
 
     public static void registerItemGroups(){
