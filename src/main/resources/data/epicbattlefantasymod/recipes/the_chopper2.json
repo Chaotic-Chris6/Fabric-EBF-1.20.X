@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "epicbattlefantasymod:soft_wood"
+    },
+    "T": {
+      "item": "epicbattlefantasymod:the_chopper"
+    }
+  },
+  "pattern": [
+    "S  ",
+    "ST ",
+    "   "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:the_chopper2"
+  }
+}

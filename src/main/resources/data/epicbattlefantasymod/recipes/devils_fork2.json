@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "epicbattlefantasymod:iron_plate"
+    },
+    "D": {
+      "item": "epicbattlefantasymod:devils_fork"
+    }
+  },
+  "pattern": [
+    "I I",
+    " D ",
+    "   "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:devils_fork2"
+  }
+}

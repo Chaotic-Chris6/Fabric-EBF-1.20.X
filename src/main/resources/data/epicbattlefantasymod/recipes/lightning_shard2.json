@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "epicbattlefantasymod:sea_shell"
+    },
+    "L": {
+      "item": "epicbattlefantasymod:lightning_shard"
+    }
+  },
+  "pattern": [
+    " S ",
+    " L ",
+    " S "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:lightning_shard2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "F": {
+      "item": "epicbattlefantasymod:fusion_blade"
+    }
+  },
+  "pattern": [
+    "  G",
+    " FG",
+    "   "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:fusion_blade2"
+  }
+}

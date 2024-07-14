@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
         "textures": {
-          "layer0": "epicbattlefantasymod:item/berserker"
+          "layer0": "epicbattlefantasymod:item/giant_slayer2"
         }
 }

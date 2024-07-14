@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "epicbattlefantasymod:iron_plate"
+    },
+    "G": {
+      "item": "epicbattlefantasymod:giant_slayer"
+    }
+  },
+  "pattern": [
+    " S ",
+    " G ",
+    " S "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:giant_slayer2"
+  }
+}

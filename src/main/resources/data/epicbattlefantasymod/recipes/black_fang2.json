@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "epicbattlefantasymod:shuriken"
+    },
+    "B": {
+      "item": "epicbattlefantasymod:black_fang"
+    }
+  },
+  "pattern": [
+    "   ",
+    " B ",
+    "S S"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:black_fang2"
+  }
+}

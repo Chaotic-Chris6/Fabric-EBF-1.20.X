@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "minecraft:snowball"
+    },
+    "I": {
+      "item": "epicbattlefantasymod:ice_needle"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SIS",
+    "   "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:ice_needle2"
+  }
+}

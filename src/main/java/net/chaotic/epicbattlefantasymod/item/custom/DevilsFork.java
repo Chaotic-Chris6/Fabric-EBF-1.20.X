@@ -7,13 +7,13 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
 
-public class Berserker extends SwordItem {
-    public Berserker(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, Settings settings) {
+public class DevilsFork extends SwordItem {
+    public DevilsFork(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, Settings settings) {
         super(toolMaterial, attackDamage, attackSpeed, settings);
     }
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker){
-        attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 60, 0));
-        attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.MINING_FATIGUE, 60, 0));
-        return false;
+        attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 60, 0));
+        target.isWet();
+        return true;
     }
 }

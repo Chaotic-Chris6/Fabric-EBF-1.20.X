@@ -81,7 +81,7 @@ public class ModItems {
     public static final Item IRON_BREW  = registerItem("iron_brew", new Item(new Item.Settings().food(ModFoodComponents.IRON_BREW)));
     public static final Item ENERGY_DRINK  = registerItem("energy_drink", new Item(new Item.Settings().food(ModFoodComponents.ENERGY_DRINK)));
     public static final Item COFFEE = registerItem("coffee", new Item(new Item.Settings()));
-    public static final Item EXPRESSO = registerItem("expresso", new Item(new Item.Settings()));
+    public static final Item ESPRESSO = registerItem("espresso", new Item(new Item.Settings()));
     public static final Item CHILI_PEPPER  = registerItem("chili_pepper", new Item(new Item.Settings().food(ModFoodComponents.CHILI_PEPPER)));
     public static final Item ORANGE_JUICE  = registerItem("orange_juice", new Item(new Item.Settings().food(ModFoodComponents.ORANGE_JUICE)));
     public static final Item CRISPS  = registerItem("crisps", new Item(new Item.Settings().food(ModFoodComponents.CRISPS)));
@@ -92,26 +92,50 @@ public class ModItems {
     //Swords
 
     public static final Item HEAVENS_GATE = registerItem("heavens_gate", new HeavensGate(SteelToolMaterial.STEEL_PLATE, 3, -3.23f, new Item.Settings()));
-    public static final Item BERSERKER = registerItem("berserker", new Berserker(BrickToolMaterial.BRICK, 6, -3.4f, new Item.Settings()));
+    public static final Item BERZERKER = registerItem("berzerker", new Berzerker(BrickToolMaterial.BRICK, 6, -3.4f, new Item.Settings()));
     public static final Item INFERNO = registerItem("inferno", new Inferno(FireToolMaterial.FIRE, 5, -3f, new Item.Settings()));
     public static final Item ICE_NEEDLE = registerItem("ice_needle", new IceNeedle(IceToolMaterial.ICE, 2, -3.1f, new Item.Settings()));
-    public static final Item LIGHTNING_SHARD = registerItem("lightning_shard", new SwordItem(TopazToolMaterial.TOPAZ, 2, -2.0f, new Item.Settings()));
+    public static final Item LIGHTNING_SHARD = registerItem("lightning_shard", new SwordItem(TopazToolMaterial.TOPAZ, 2, -0.5f, new Item.Settings()));
     public static final Item SAPPHIRE_SAINT = registerItem("sapphire_saint", new SapphireSaint(SapphireToolMaterial.SAPPHIRE, 3, -3.0f, new Item.Settings()));
     public static final Item BLACK_FANG = registerItem("black_fang", new BlackFang(OpalToolMaterial.OPAL, 0, -3.0f, new Item.Settings()));
-    public static final Item THE_CHOPPER = registerItem("the_chopper", new AxeItem(WoodToolMaterial.STEEL_PLATE, 0, -3.0f, new Item.Settings()));
+    public static final Item THE_CHOPPER = registerItem("the_chopper", new TheChopper(WoodToolMaterial.STEEL_PLATE, 1, -3.0f, new Item.Settings()));
     public static final Item GIANT_SLAYER = registerItem("giant_slayer", new SwordItem(SteelToolMaterial.IRON_PLATE, 11, -3.6f, new Item.Settings()));
     public static final Item HYPER_DRILL = registerItem("hyper_drill", new PickaxeItem(DrillToolMaterial.STEEL_PLATE, 2, -3.0f, new Item.Settings()));
     public static final Item EMERALD_SMASHER = registerItem("emerald_smasher", new PickaxeItem(EmeraldToolMaterial.EMERALD, 4, -3.2f, new Item.Settings()));
-    public static final Item DEVILS_FORK = registerItem("devils_fork", new SwordItem(FireToolMaterial.IRON_PLATE, 3, -3.2f, new Item.Settings()));
-    public static final Item ULTRA_PRO = registerItem("ultra_pro", new SwordItem(WoodToolMaterial.SOFT_WOOD, 0, -0.0f, new Item.Settings()));
+    public static final Item DEVILS_FORK = registerItem("devils_fork", new DevilsFork(FireToolMaterial.IRON_PLATE, 3, -3.2f, new Item.Settings()));
+    public static final Item ULTRA_PRO = registerItem("ultra_pro", new SwordItem(WoodToolMaterial.SOFT_WOOD, 0, 0.0f, new Item.Settings()));
     public static final Item CLUB_OF_WITHERING = registerItem("club_of_withering", new ClubOfWithering(BoneToolMaterial.BONE, 0, -3.0f, new Item.Settings()));
     public static final Item CRIMSON_RAZORBACK = registerItem("crimson_razorback", new SwordItem(GuitarToolMaterial.GAME_CHILD, 0, -3.0f, new Item.Settings()));
-    public static final Item DRAGONS_FEATHER = registerItem("dragons_feather", new DragonsFeather(FeatherToolMaterial.FEATHER, 0, -1.5f, new Item.Settings()));
-    public static final Item GOLDEN_AXE = registerItem("golden_axe", new GoldenAxe(GoldPlateToolMaterial.GOLD_PLATE, 2, -2.0f, new Item.Settings()));
+    public static final Item DRAGONS_FEATHER = registerItem("dragons_feather", new DragonsFeather(FeatherToolMaterial.FEATHER, 3, -1.5f, new Item.Settings()));
+    public static final Item GOLDEN_AXE = registerItem("golden_axe", new GoldenAxe(GoldPlateToolMaterial.GOLD_PLATE, 4, -2.0f, new Item.Settings()));
     public static final Item DARK_STALKER = registerItem("dark_stalker", new DarkStalker(RazorClawToolMaterial.RAZOR_CLAW, 1, -2.9f, new Item.Settings()));
     public static final Item FUSION_BLADE = registerItem("fusion_blade", new SwordItem(FusionToolMaterial.METAL_GEAR, 2, -2.5f, new Item.Settings()));
     public static final Item SOUL_EATER = registerItem("soul_eater", new SoulEater(RazorClawToolMaterial.IRON_PLATE, 1, -3.34f, new Item.Settings()));
     public static final Item LOVE_BLADE = registerItem("love_blade", new LoveBlade(JungleFlowerToolMaterial.JUNGLE_FLOWER, 0, -3.0f, new Item.Settings()));
+
+    //Swords 2
+
+    public static final Item HEAVENS_GATE2 = registerItem("heavens_gate2", new HeavensGate(SteelToolMaterial.STEEL_PLATE, 4, -3.23f, new Item.Settings()));
+    public static final Item BERZERKER2 = registerItem("berzerker2", new Berzerker(BrickToolMaterial.BRICK, 7, -3.4f, new Item.Settings()));
+    public static final Item INFERNO2 = registerItem("inferno2", new Inferno(FireToolMaterial.FIRE, 6, -3f, new Item.Settings()));
+    public static final Item ICE_NEEDLE2 = registerItem("ice_needle2", new IceNeedle(IceToolMaterial.ICE, 3, -3.1f, new Item.Settings()));
+    public static final Item LIGHTNING_SHARD2 = registerItem("lightning_shard2", new SwordItem(TopazToolMaterial.TOPAZ, 3, 0.0f, new Item.Settings()));
+    public static final Item SAPPHIRE_SAINT2 = registerItem("sapphire_saint2", new SapphireSaint(SapphireToolMaterial.SAPPHIRE, 4, -3.0f, new Item.Settings()));
+    public static final Item BLACK_FANG2 = registerItem("black_fang2", new BlackFang(OpalToolMaterial.OPAL, 1, -2.5f, new Item.Settings()));
+    public static final Item THE_CHOPPER2 = registerItem("the_chopper2", new TheChopper(WoodToolMaterial.STEEL_PLATE, 2, -3.0f, new Item.Settings()));
+    public static final Item GIANT_SLAYER2 = registerItem("giant_slayer2", new SwordItem(SteelToolMaterial.IRON_PLATE, 13, -3.6f, new Item.Settings()));
+    public static final Item HYPER_DRILL2 = registerItem("hyper_drill2", new PickaxeItem(DrillToolMaterial.STEEL_PLATE, 3, -3.0f, new Item.Settings()));
+    public static final Item EMERALD_SMASHER2 = registerItem("emerald_smasher2", new PickaxeItem(EmeraldToolMaterial.EMERALD, 5, -3.2f, new Item.Settings()));
+    public static final Item DEVILS_FORK2 = registerItem("devils_fork2", new DevilsFork(FireToolMaterial.IRON_PLATE, 3, -3.2f, new Item.Settings()));
+    public static final Item ULTRA_PRO2 = registerItem("ultra_pro2", new SwordItem(WoodToolMaterial.SOFT_WOOD, 1, 0.5f, new Item.Settings()));
+    public static final Item CLUB_OF_WITHERING2 = registerItem("club_of_withering2", new ClubOfWithering(BoneToolMaterial.BONE, 1, -3.0f, new Item.Settings()));
+    public static final Item CRIMSON_RAZORBACK2 = registerItem("crimson_razorback2", new SwordItem(GuitarToolMaterial.GAME_CHILD, 0, -3.0f, new Item.Settings()));
+    public static final Item DRAGONS_FEATHER2 = registerItem("dragons_feather2", new DragonsFeather(FeatherToolMaterial.FEATHER, 4, -1.0f, new Item.Settings()));
+    public static final Item GOLDEN_AXE2 = registerItem("golden_axe2", new GoldenAxe(GoldPlateToolMaterial.GOLD_PLATE, 5, -2.0f, new Item.Settings()));
+    public static final Item DARK_STALKER2 = registerItem("dark_stalker2", new DarkStalker(RazorClawToolMaterial.RAZOR_CLAW, 2, -2.9f, new Item.Settings()));
+    public static final Item FUSION_BLADE2 = registerItem("fusion_blade2", new SwordItem(FusionToolMaterial.METAL_GEAR, 3, -2.5f, new Item.Settings()));
+    public static final Item SOUL_EATER2 = registerItem("soul_eater2", new SoulEater(RazorClawToolMaterial.IRON_PLATE, 3, -3.34f, new Item.Settings()));
+    public static final Item LOVE_BLADE2 = registerItem("love_blade2", new LoveBlade(JungleFlowerToolMaterial.JUNGLE_FLOWER, 0, -3.0f, new Item.Settings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(EARTH_BALL);
@@ -181,7 +205,7 @@ public class ModItems {
         entries.add(IRON_BREW);
         entries.add(ENERGY_DRINK);
         entries.add(COFFEE);
-        entries.add(EXPRESSO);
+        entries.add(ESPRESSO);
         entries.add(CHILI_PEPPER);
         entries.add(ORANGE_JUICE);
         entries.add(CRISPS);
@@ -191,26 +215,47 @@ public class ModItems {
     }
     private static void addItemsToCombatItemGroup(FabricItemGroupEntries entries){
         entries.add(HEAVENS_GATE);
-        entries.add(BERSERKER);
+        entries.add(HEAVENS_GATE2);
+        entries.add(BERZERKER);
+        entries.add(BERZERKER2);
         entries.add(INFERNO);
+        entries.add(INFERNO2);
         entries.add(ICE_NEEDLE);
+        entries.add(ICE_NEEDLE2);
         entries.add(LIGHTNING_SHARD);
+        entries.add(LIGHTNING_SHARD2);
         entries.add(SAPPHIRE_SAINT);
+        entries.add(SAPPHIRE_SAINT2);
         entries.add(BLACK_FANG);
+        entries.add(BLACK_FANG2);
         entries.add(THE_CHOPPER);
+        entries.add(THE_CHOPPER2);
         entries.add(GIANT_SLAYER);
+        entries.add(GIANT_SLAYER2);
         entries.add(HYPER_DRILL);
+        entries.add(HYPER_DRILL2);
         entries.add(EMERALD_SMASHER);
+        entries.add(EMERALD_SMASHER2);
         entries.add(DEVILS_FORK);
+        entries.add(DEVILS_FORK2);
         entries.add(ULTRA_PRO);
+        entries.add(ULTRA_PRO2);
         entries.add(CLUB_OF_WITHERING);
+        entries.add(CLUB_OF_WITHERING2);
         entries.add(CRIMSON_RAZORBACK);
+        entries.add(CRIMSON_RAZORBACK2);
         entries.add(DRAGONS_FEATHER);
+        entries.add(DRAGONS_FEATHER2);
         entries.add(GOLDEN_AXE);
+        entries.add(GOLDEN_AXE2);
         entries.add(DARK_STALKER);
+        entries.add(DARK_STALKER2);
         entries.add(FUSION_BLADE);
+        entries.add(FUSION_BLADE2);
         entries.add(SOUL_EATER);
+        entries.add(SOUL_EATER2);
         entries.add(LOVE_BLADE);
+        entries.add(LOVE_BLADE2);
     }
 
 

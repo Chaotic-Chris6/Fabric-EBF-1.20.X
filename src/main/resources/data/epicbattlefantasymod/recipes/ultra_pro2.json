@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "epicbattlefantasymod:soft_wood"
+    },
+    "U": {
+      "item": "epicbattlefantasymod:ultra_pro"
+    }
+  },
+  "pattern": [
+    " S ",
+    " U ",
+    "   "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:ultra_pro2"
+  }
+}

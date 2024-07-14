@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "H": {
+      "item": "epicbattlefantasymod:heavens_gate"
+    }
+  },
+  "pattern": [
+    "   ",
+    "FHF",
+    " F "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:heavens_gate2"
+  }
+}

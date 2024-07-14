@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "epicbattlefantasymod:iron_plate"
+    },
+    "S": {
+      "item": "epicbattlefantasymod:soul_eater"
+    }
+  },
+  "pattern": [
+    "   ",
+    "ISI",
+    " I "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:soul_eater2"
+  }
+}

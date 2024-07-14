@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "epicbattlefantasymod:copper_pipe"
+    },
+    "G": {
+      "item": "epicbattlefantasymod:golden_axe"
+    }
+  },
+  "pattern": [
+    "   ",
+    "CGC",
+    "   "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:golden_axe2"
+  }
+}

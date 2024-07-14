@@ -80,7 +80,7 @@ public class ModItemGroups {
                         entries.add(ModItems.IRON_BREW);
                         entries.add(ModItems.ENERGY_DRINK);
                         entries.add(ModItems.COFFEE);
-                        entries.add(ModItems.EXPRESSO);
+                        entries.add(ModItems.ESPRESSO);
                         entries.add(ModItems.CHILI_PEPPER);
                         entries.add(ModItems.ORANGE_JUICE);
                         entries.add(ModItems.CRISPS);
@@ -89,7 +89,7 @@ public class ModItemGroups {
                         entries.add(ModItems.PIZZA);
 
                         entries.add(ModItems.HEAVENS_GATE);
-                        entries.add(ModItems.BERSERKER);
+                        entries.add(ModItems.BERZERKER);
                         entries.add(ModItems.INFERNO);
                         entries.add(ModItems.ICE_NEEDLE);
                         entries.add(ModItems.LIGHTNING_SHARD);

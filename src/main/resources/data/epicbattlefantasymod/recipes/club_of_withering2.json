@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "epicbattlefantasymod:razor_claw"
+    },
+    "C": {
+      "item": "epicbattlefantasymod:club_of_withering"
+    }
+  },
+  "pattern": [
+    " R ",
+    " C ",
+    "   "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:club_of_withering2"
+  }
+}

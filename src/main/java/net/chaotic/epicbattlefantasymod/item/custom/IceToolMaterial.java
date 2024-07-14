@@ -7,7 +7,7 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum IceToolMaterial implements ToolMaterial {
-    ICE(5, 250, 6.0F, 2.0F, 14, () -> Ingredient.ofItems(Items.ICE, Items.BLUE_ICE, Items.PACKED_ICE));
+    ICE(5, 250, 6.0F, 3.0F, 14, () -> Ingredient.ofItems(Items.ICE, Items.BLUE_ICE, Items.PACKED_ICE));
 
     private final int miningLevel;
     private final int itemDurability;

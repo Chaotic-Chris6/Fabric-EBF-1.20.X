@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "epicbattlefantasymod:iron_plate"
+    },
+    "E": {
+      "item": "epicbattlefantasymod:emerald_smasher"
+    }
+  },
+  "pattern": [
+    "I I",
+    " E ",
+    "   "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:emerald_smasher2"
+  }
+}

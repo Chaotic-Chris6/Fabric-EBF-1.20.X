@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "item": "epicbattlefantasymod:earth_ball"
+    },
+    "H": {
+      "item": "epicbattlefantasymod:hyper_drill"
+    }
+  },
+  "pattern": [
+    " E ",
+    "EHE",
+    " E "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:hyper_drill2"
+  }
+}

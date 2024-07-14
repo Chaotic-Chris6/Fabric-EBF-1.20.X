@@ -12,7 +12,10 @@ public class LoveBlade extends SwordItem {
         super(toolMaterial, attackDamage, attackSpeed, settings);
     }
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker){
-        attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 150, 0));
+        attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 200, 1));
+        attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 200, 2));
+        attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 200, 2));
+        target.addStatusEffect(new StatusEffectInstance(StatusEffects.MINING_FATIGUE, 200, 0));
         return false;
     }
 }

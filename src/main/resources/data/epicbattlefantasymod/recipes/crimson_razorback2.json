@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "epicbattlefantasymod:spring"
+    },
+    "C": {
+      "item": "epicbattlefantasymod:crimson_razorback"
+    }
+  },
+  "pattern": [
+    "S S",
+    " C ",
+    "   "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:crimson_razorback2"
+  }
+}

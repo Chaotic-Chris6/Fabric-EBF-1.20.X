@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "epicbattlefantasymod:cupcake"
+    },
+    "L": {
+      "item": "epicbattlefantasymod:love_blade"
+    }
+  },
+  "pattern": [
+    "   ",
+    " L ",
+    " C "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:love_blade2"
+  }
+}

@@ -564,6 +564,42 @@ public class ModLootTableModifiers {
             if(VILLAGE_SAVANNA_HOUSE_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.01f))
+                        .with(ItemEntry.builder(ModItems.HAMBURGER))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if(VILLAGE_SAVANNA_HOUSE_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.25f))
+                        .with(ItemEntry.builder(ModItems.RAINBOW_ORE))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 6.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if(VILLAGE_SAVANNA_HOUSE_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.40f))
+                        .with(ItemEntry.builder(ModItems.GEODE))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 3.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if(VILLAGE_SAVANNA_HOUSE_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.15f))
+                        .with(ItemEntry.builder(ModItems.AMBER))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if(VILLAGE_SAVANNA_HOUSE_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.1f))
                         .with(ItemEntry.builder(ModItems.RUBY))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
@@ -591,9 +627,27 @@ public class ModLootTableModifiers {
             if(VILLAGE_SAVANNA_HOUSE_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.1f))
+                        .conditionally(RandomChanceLootCondition.builder(0.08f))
+                        .with(ItemEntry.builder(ModItems.OPAL))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if(VILLAGE_SAVANNA_HOUSE_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.05f))
                         .with(ItemEntry.builder(ModItems.GOLD_PLATE))
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 7.0f)).build());
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 10.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if(VILLAGE_SAVANNA_HOUSE_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.01f))
+                        .with(ItemEntry.builder(ModItems.TITANIUM))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
             }
@@ -647,6 +701,15 @@ public class ModLootTableModifiers {
             if(VILLAGE_SNOWY_HOUSE_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.9f))
+                        .with(ItemEntry.builder(ModItems.BLUEBERRIES))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 12.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if(VILLAGE_SNOWY_HOUSE_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.1f))
                         .with(ItemEntry.builder(ModItems.SAPPHIRE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
@@ -657,7 +720,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.01f))
-                        .with(ItemEntry.builder(ModItems.EXPRESSO))
+                        .with(ItemEntry.builder(ModItems.ESPRESSO))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -1681,7 +1744,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.25f))
-                        .with(ItemEntry.builder(ModItems.EXPRESSO))
+                        .with(ItemEntry.builder(ModItems.ESPRESSO))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -1929,7 +1992,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.5f))
-                        .with(ItemEntry.builder(ModItems.BERSERKER))
+                        .with(ItemEntry.builder(ModItems.BERZERKER))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -2526,7 +2589,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1.0f))
-                        .with(ItemEntry.builder(ModItems.BERSERKER))
+                        .with(ItemEntry.builder(ModItems.BERZERKER))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -2640,6 +2703,15 @@ public class ModLootTableModifiers {
                 tableBuilder.pool(poolBuilder.build());
             }
 
+            if(CREEPER_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.5f))
+                        .with(ItemEntry.builder(ModItems.PLUTONIUM_CORE))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 4.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
             if(CREEPER_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
@@ -2803,7 +2875,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.1f))
-                        .with(ItemEntry.builder(ModItems.EXPRESSO))
+                        .with(ItemEntry.builder(ModItems.ESPRESSO))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -3709,7 +3781,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1.0f))
-                        .with(ItemEntry.builder(ModItems.EXPRESSO))
+                        .with(ItemEntry.builder(ModItems.ESPRESSO))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
