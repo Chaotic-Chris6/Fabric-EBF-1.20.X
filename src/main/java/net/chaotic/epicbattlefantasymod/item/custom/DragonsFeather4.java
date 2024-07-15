@@ -7,12 +7,13 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
 
-public class SapphireSaint extends SwordItem {
-    public SapphireSaint(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, Settings settings) {
+public class DragonsFeather4 extends SwordItem {
+    public DragonsFeather4(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, Settings settings) {
         super(toolMaterial, attackDamage, attackSpeed, settings);
     }
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker){
-        target.isWet();
-        return true;
+        attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE, 200, 0));
+        attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 200, 6));
+        return false;
     }
 }

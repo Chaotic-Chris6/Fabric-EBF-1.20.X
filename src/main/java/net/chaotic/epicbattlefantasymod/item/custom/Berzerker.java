@@ -12,8 +12,8 @@ public class Berzerker extends SwordItem {
         super(toolMaterial, attackDamage, attackSpeed, settings);
     }
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker){
-        attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 60, 0));
-        attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.MINING_FATIGUE, 60, 0));
+        attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 200, 0));
+        attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.MINING_FATIGUE, 200, 0));
         return false;
     }
 }

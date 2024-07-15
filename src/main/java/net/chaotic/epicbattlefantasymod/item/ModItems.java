@@ -99,9 +99,9 @@ public class ModItems {
     public static final Item SAPPHIRE_SAINT = registerItem("sapphire_saint", new SapphireSaint(SapphireToolMaterial.SAPPHIRE, 3, -3.0f, new Item.Settings()));
     public static final Item BLACK_FANG = registerItem("black_fang", new BlackFang(OpalToolMaterial.OPAL, 0, -3.0f, new Item.Settings()));
     public static final Item THE_CHOPPER = registerItem("the_chopper", new TheChopper(WoodToolMaterial.STEEL_PLATE, 1, -3.5f, new Item.Settings()));
-    public static final Item GIANT_SLAYER = registerItem("giant_slayer", new SwordItem(SteelToolMaterial.IRON_PLATE, 11, -3.6f, new Item.Settings()));
+    public static final Item GIANT_SLAYER = registerItem("giant_slayer", new GiantSlayer(SteelToolMaterial.IRON_PLATE, 11, -3.6f, new Item.Settings()));
     public static final Item HYPER_DRILL = registerItem("hyper_drill", new PickaxeItem(DrillToolMaterial.STEEL_PLATE, 2, -3.0f, new Item.Settings()));
-    public static final Item EMERALD_SMASHER = registerItem("emerald_smasher", new PickaxeItem(EmeraldToolMaterial.EMERALD, 4, -3.2f, new Item.Settings()));
+    public static final Item EMERALD_SMASHER = registerItem("emerald_smasher", new EmeraldSmasher(EmeraldToolMaterial.EMERALD, 4, -3.2f, new Item.Settings()));
     public static final Item DEVILS_FORK = registerItem("devils_fork", new DevilsFork(FireToolMaterial.IRON_PLATE, 3, -3.2f, new Item.Settings()));
     public static final Item ULTRA_PRO = registerItem("ultra_pro", new SwordItem(WoodToolMaterial.SOFT_WOOD, 0, 0.0f, new Item.Settings()));
     public static final Item CLUB_OF_WITHERING = registerItem("club_of_withering", new ClubOfWithering(BoneToolMaterial.BONE, 0, -3.0f, new Item.Settings()));
@@ -115,99 +115,99 @@ public class ModItems {
 
     //Swords 2
 
-    public static final Item HEAVENS_GATE2 = registerItem("heavens_gate2", new HeavensGate(SteelToolMaterial.STEEL_PLATE, 4, -3.23f, new Item.Settings()));
+    public static final Item HEAVENS_GATE2 = registerItem("heavens_gate2", new HeavensGate2(SteelToolMaterial.STEEL_PLATE, 4, -3.23f, new Item.Settings()));
     public static final Item BERZERKER2 = registerItem("berzerker2", new Berzerker(BrickToolMaterial.BRICK, 7, -3.4f, new Item.Settings()));
     public static final Item INFERNO2 = registerItem("inferno2", new Inferno(FireToolMaterial.FIRE, 6, -3f, new Item.Settings()));
     public static final Item ICE_NEEDLE2 = registerItem("ice_needle2", new IceNeedle(IceToolMaterial.ICE, 3, -3.1f, new Item.Settings()));
     public static final Item LIGHTNING_SHARD2 = registerItem("lightning_shard2", new SwordItem(TopazToolMaterial.TOPAZ, 3, 0.0f, new Item.Settings()));
-    public static final Item SAPPHIRE_SAINT2 = registerItem("sapphire_saint2", new SapphireSaint(SapphireToolMaterial.SAPPHIRE, 4, -3.0f, new Item.Settings()));
+    public static final Item SAPPHIRE_SAINT2 = registerItem("sapphire_saint2", new SapphireSaint2(SapphireToolMaterial.SAPPHIRE, 4, -3.0f, new Item.Settings()));
     public static final Item BLACK_FANG2 = registerItem("black_fang2", new BlackFang(OpalToolMaterial.OPAL, 1, -2.5f, new Item.Settings()));
-    public static final Item THE_CHOPPER2 = registerItem("the_chopper2", new TheChopper(WoodToolMaterial.STEEL_PLATE, 2, -3.5f, new Item.Settings()));
-    public static final Item GIANT_SLAYER2 = registerItem("giant_slayer2", new SwordItem(SteelToolMaterial.IRON_PLATE, 13, -3.6f, new Item.Settings()));
+    public static final Item THE_CHOPPER2 = registerItem("the_chopper2", new TheChopper2(WoodToolMaterial.STEEL_PLATE, 2, -3.5f, new Item.Settings()));
+    public static final Item GIANT_SLAYER2 = registerItem("giant_slayer2", new GiantSlayer(SteelToolMaterial.IRON_PLATE, 13, -3.6f, new Item.Settings()));
     public static final Item HYPER_DRILL2 = registerItem("hyper_drill2", new PickaxeItem(DrillToolMaterial.STEEL_PLATE, 3, -3.0f, new Item.Settings()));
-    public static final Item EMERALD_SMASHER2 = registerItem("emerald_smasher2", new PickaxeItem(EmeraldToolMaterial.EMERALD, 5, -3.2f, new Item.Settings()));
+    public static final Item EMERALD_SMASHER2 = registerItem("emerald_smasher2", new EmeraldSmasher(EmeraldToolMaterial.EMERALD, 5, -3.2f, new Item.Settings()));
     public static final Item DEVILS_FORK2 = registerItem("devils_fork2", new DevilsFork(FireToolMaterial.IRON_PLATE, 3, -3.2f, new Item.Settings()));
-    public static final Item ULTRA_PRO2 = registerItem("ultra_pro2", new SwordItem(WoodToolMaterial.SOFT_WOOD, 1, 0.5f, new Item.Settings()));
-    public static final Item CLUB_OF_WITHERING2 = registerItem("club_of_withering2", new ClubOfWithering(BoneToolMaterial.BONE, 1, -3.0f, new Item.Settings()));
+    public static final Item ULTRA_PRO2 = registerItem("ultra_pro2", new UltraPro2(WoodToolMaterial.SOFT_WOOD, 1, 0.5f, new Item.Settings()));
+    public static final Item CLUB_OF_WITHERING2 = registerItem("club_of_withering2", new ClubOfWithering2(BoneToolMaterial.BONE, 1, -3.0f, new Item.Settings()));
     public static final Item CRIMSON_RAZORBACK2 = registerItem("crimson_razorback2", new SwordItem(GuitarToolMaterial.GAME_CHILD, 0, -3.0f, new Item.Settings()));
-    public static final Item DRAGONS_FEATHER2 = registerItem("dragons_feather2", new DragonsFeather(FeatherToolMaterial.FEATHER, 4, -1.0f, new Item.Settings()));
+    public static final Item DRAGONS_FEATHER2 = registerItem("dragons_feather2", new DragonsFeather2(FeatherToolMaterial.FEATHER, 4, -1.0f, new Item.Settings()));
     public static final Item GOLDEN_AXE2 = registerItem("golden_axe2", new GoldenAxe(GoldPlateToolMaterial.GOLD_PLATE, 5, -2.0f, new Item.Settings()));
     public static final Item DARK_STALKER2 = registerItem("dark_stalker2", new DarkStalker(RazorClawToolMaterial.RAZOR_CLAW, 2, -2.9f, new Item.Settings()));
-    public static final Item FUSION_BLADE2 = registerItem("fusion_blade2", new SwordItem(FusionToolMaterial.METAL_GEAR, 3, -2.5f, new Item.Settings()));
+    public static final Item FUSION_BLADE2 = registerItem("fusion_blade2", new FusionBlade2(FusionToolMaterial.METAL_GEAR, 3, -2.5f, new Item.Settings()));
     public static final Item SOUL_EATER2 = registerItem("soul_eater2", new SoulEater(RazorClawToolMaterial.IRON_PLATE, 3, -3.34f, new Item.Settings()));
-    public static final Item LOVE_BLADE2 = registerItem("love_blade2", new LoveBlade(JungleFlowerToolMaterial.JUNGLE_FLOWER, 0, -3.0f, new Item.Settings()));
+    public static final Item LOVE_BLADE2 = registerItem("love_blade2", new LoveBlade2(JungleFlowerToolMaterial.JUNGLE_FLOWER, 0, -3.0f, new Item.Settings()));
 
     //Swords 3
 
-    public static final Item HEAVENS_GATE3 = registerItem("heavens_gate3", new HeavensGate(SteelToolMaterial.STEEL_PLATE, 5, -3.23f, new Item.Settings()));
-    public static final Item BERZERKER3 = registerItem("berzerker3", new Berzerker(BrickToolMaterial.BRICK, 8, -3.4f, new Item.Settings()));
-    public static final Item INFERNO3 = registerItem("inferno3", new Inferno(FireToolMaterial.FIRE, 7, -2.5f, new Item.Settings()));
+    public static final Item HEAVENS_GATE3 = registerItem("heavens_gate3", new HeavensGate2(SteelToolMaterial.STEEL_PLATE, 5, -3.23f, new Item.Settings()));
+    public static final Item BERZERKER3 = registerItem("berzerker3", new Berzerker3(BrickToolMaterial.BRICK, 8, -3.4f, new Item.Settings()));
+    public static final Item INFERNO3 = registerItem("inferno3", new Inferno3(FireToolMaterial.FIRE, 7, -2.5f, new Item.Settings()));
     public static final Item ICE_NEEDLE3 = registerItem("ice_needle3", new IceNeedle(IceToolMaterial.ICE, 4, -3.1f, new Item.Settings()));
     public static final Item LIGHTNING_SHARD3 = registerItem("lightning_shard3", new SwordItem(TopazToolMaterial.TOPAZ, 4, 0.5f, new Item.Settings()));
-    public static final Item SAPPHIRE_SAINT3 = registerItem("sapphire_saint3", new SapphireSaint(SapphireToolMaterial.SAPPHIRE, 5, -2.5f, new Item.Settings()));
+    public static final Item SAPPHIRE_SAINT3 = registerItem("sapphire_saint3", new SapphireSaint3(SapphireToolMaterial.SAPPHIRE, 5, -2.5f, new Item.Settings()));
     public static final Item BLACK_FANG3 = registerItem("black_fang3", new BlackFang(OpalToolMaterial.OPAL, 2, -2.0f, new Item.Settings()));
-    public static final Item THE_CHOPPER3 = registerItem("the_chopper3", new TheChopper(WoodToolMaterial.STEEL_PLATE, 3, -3.5f, new Item.Settings()));
-    public static final Item GIANT_SLAYER3 = registerItem("giant_slayer3", new SwordItem(SteelToolMaterial.IRON_PLATE, 15, -3.6f, new Item.Settings()));
+    public static final Item THE_CHOPPER3 = registerItem("the_chopper3", new TheChopper3(WoodToolMaterial.STEEL_PLATE, 3, -3.5f, new Item.Settings()));
+    public static final Item GIANT_SLAYER3 = registerItem("giant_slayer3", new GiantSlayer(SteelToolMaterial.IRON_PLATE, 15, -3.6f, new Item.Settings()));
     public static final Item HYPER_DRILL3 = registerItem("hyper_drill3", new PickaxeItem(DrillToolMaterial.STEEL_PLATE, 4, -3.0f, new Item.Settings()));
-    public static final Item EMERALD_SMASHER3 = registerItem("emerald_smasher3", new PickaxeItem(EmeraldToolMaterial.EMERALD, 6, -3.2f, new Item.Settings()));
+    public static final Item EMERALD_SMASHER3 = registerItem("emerald_smasher3", new EmeraldSmasher(EmeraldToolMaterial.EMERALD, 6, -3.2f, new Item.Settings()));
     public static final Item DEVILS_FORK3 = registerItem("devils_fork3", new DevilsFork(FireToolMaterial.IRON_PLATE, 4, -3.2f, new Item.Settings()));
-    public static final Item ULTRA_PRO3 = registerItem("ultra_pro3", new SwordItem(WoodToolMaterial.SOFT_WOOD, 2, 1.0f, new Item.Settings()));
-    public static final Item CLUB_OF_WITHERING3 = registerItem("club_of_withering3", new ClubOfWithering(BoneToolMaterial.BONE, 2, -3.0f, new Item.Settings()));
+    public static final Item ULTRA_PRO3 = registerItem("ultra_pro3", new UltraPro3(WoodToolMaterial.SOFT_WOOD, 2, 1.0f, new Item.Settings()));
+    public static final Item CLUB_OF_WITHERING3 = registerItem("club_of_withering3", new ClubOfWithering2(BoneToolMaterial.BONE, 2, -3.0f, new Item.Settings()));
     public static final Item CRIMSON_RAZORBACK3 = registerItem("crimson_razorback3", new SwordItem(GuitarToolMaterial.GAME_CHILD, 1, -3.0f, new Item.Settings()));
-    public static final Item DRAGONS_FEATHER3 = registerItem("dragons_feather3", new DragonsFeather(FeatherToolMaterial.FEATHER, 5, -0.5f, new Item.Settings()));
-    public static final Item GOLDEN_AXE3 = registerItem("golden_axe3", new GoldenAxe(GoldPlateToolMaterial.GOLD_PLATE, 6, -2.0f, new Item.Settings()));
+    public static final Item DRAGONS_FEATHER3 = registerItem("dragons_feather3", new DragonsFeather3(FeatherToolMaterial.FEATHER, 5, -0.5f, new Item.Settings()));
+    public static final Item GOLDEN_AXE3 = registerItem("golden_axe3", new GoldenAxe3(GoldPlateToolMaterial.GOLD_PLATE, 6, -2.0f, new Item.Settings()));
     public static final Item DARK_STALKER3 = registerItem("dark_stalker3", new DarkStalker(RazorClawToolMaterial.RAZOR_CLAW, 3, -2.9f, new Item.Settings()));
-    public static final Item FUSION_BLADE3 = registerItem("fusion_blade3", new SwordItem(FusionToolMaterial.METAL_GEAR, 4, -2.5f, new Item.Settings()));
+    public static final Item FUSION_BLADE3 = registerItem("fusion_blade3", new FusionBlade2(FusionToolMaterial.METAL_GEAR, 4, -2.5f, new Item.Settings()));
     public static final Item SOUL_EATER3 = registerItem("soul_eater3", new SoulEater(RazorClawToolMaterial.IRON_PLATE, 5, -3.34f, new Item.Settings()));
-    public static final Item LOVE_BLADE3 = registerItem("love_blade3", new LoveBlade(JungleFlowerToolMaterial.JUNGLE_FLOWER, 0, -3.0f, new Item.Settings()));
+    public static final Item LOVE_BLADE3 = registerItem("love_blade3", new LoveBlade3(JungleFlowerToolMaterial.JUNGLE_FLOWER, 0, -3.0f, new Item.Settings()));
 
     //Swords 4
 
-    public static final Item HEAVENS_GATE4 = registerItem("heavens_gate4", new HeavensGate(SteelToolMaterial.STEEL_PLATE, 6, -3.23f, new Item.Settings()));
-    public static final Item BERZERKER4 = registerItem("berzerker4", new Berzerker(BrickToolMaterial.BRICK, 10, -3.4f, new Item.Settings()));
-    public static final Item INFERNO4 = registerItem("inferno4", new Inferno(FireToolMaterial.FIRE, 1, -2.0f, new Item.Settings()));
+    public static final Item HEAVENS_GATE4 = registerItem("heavens_gate4", new HeavensGate3(SteelToolMaterial.STEEL_PLATE, 6, -3.23f, new Item.Settings()));
+    public static final Item BERZERKER4 = registerItem("berzerker4", new Berzerker4(BrickToolMaterial.BRICK, 10, -3.4f, new Item.Settings()));
+    public static final Item INFERNO4 = registerItem("inferno4", new Inferno4(FireToolMaterial.FIRE, 1, -2.0f, new Item.Settings()));
     public static final Item ICE_NEEDLE4 = registerItem("ice_needle4", new IceNeedle(IceToolMaterial.ICE, 6, -3.1f, new Item.Settings()));
     public static final Item LIGHTNING_SHARD4 = registerItem("lightning_shard4", new SwordItem(TopazToolMaterial.TOPAZ, 5, 1.0f, new Item.Settings()));
-    public static final Item SAPPHIRE_SAINT4 = registerItem("sapphire_saint4", new SapphireSaint(SapphireToolMaterial.SAPPHIRE, 7, -2.5f, new Item.Settings()));
+    public static final Item SAPPHIRE_SAINT4 = registerItem("sapphire_saint4", new SapphireSaint4(SapphireToolMaterial.SAPPHIRE, 7, -2.5f, new Item.Settings()));
     public static final Item BLACK_FANG4 = registerItem("black_fang4", new BlackFang(OpalToolMaterial.OPAL, 3, -1.5f, new Item.Settings()));
-    public static final Item THE_CHOPPER4 = registerItem("the_chopper4", new TheChopper(WoodToolMaterial.STEEL_PLATE, 4, -3.5f, new Item.Settings()));
-    public static final Item GIANT_SLAYER4 = registerItem("giant_slayer4", new SwordItem(SteelToolMaterial.IRON_PLATE, 17, -3.6f, new Item.Settings()));
-    public static final Item HYPER_DRILL4 = registerItem("hyper_drill4", new PickaxeItem(DrillToolMaterial.STEEL_PLATE, 6, -3.0f, new Item.Settings()));
-    public static final Item EMERALD_SMASHER4 = registerItem("emerald_smasher4", new PickaxeItem(EmeraldToolMaterial.EMERALD, 8, -3.2f, new Item.Settings()));
-    public static final Item DEVILS_FORK4 = registerItem("devils_fork4", new DevilsFork(FireToolMaterial.IRON_PLATE, 5, -3.2f, new Item.Settings()));
-    public static final Item ULTRA_PRO4 = registerItem("ultra_pro4", new SwordItem(WoodToolMaterial.SOFT_WOOD, 3, 1.5f, new Item.Settings()));
-    public static final Item CLUB_OF_WITHERING4 = registerItem("club_of_withering4", new ClubOfWithering(BoneToolMaterial.BONE, 3, -3.0f, new Item.Settings()));
+    public static final Item THE_CHOPPER4 = registerItem("the_chopper4", new TheChopper4(WoodToolMaterial.STEEL_PLATE, 4, -3.5f, new Item.Settings()));
+    public static final Item GIANT_SLAYER4 = registerItem("giant_slayer4", new GiantSlayer(SteelToolMaterial.IRON_PLATE, 17, -3.6f, new Item.Settings()));
+    public static final Item HYPER_DRILL4 = registerItem("hyper_drill4", new HyperDrill4(DrillToolMaterial.STEEL_PLATE, 6, -3.0f, new Item.Settings()));
+    public static final Item EMERALD_SMASHER4 = registerItem("emerald_smasher4", new EmeraldSmasher(EmeraldToolMaterial.EMERALD, 8, -3.2f, new Item.Settings()));
+    public static final Item DEVILS_FORK4 = registerItem("devils_fork4", new DevilsFork4(FireToolMaterial.IRON_PLATE, 5, -3.2f, new Item.Settings()));
+    public static final Item ULTRA_PRO4 = registerItem("ultra_pro4", new UltraPro4(WoodToolMaterial.SOFT_WOOD, 3, 1.5f, new Item.Settings()));
+    public static final Item CLUB_OF_WITHERING4 = registerItem("club_of_withering4", new ClubOfWithering4(BoneToolMaterial.BONE, 3, -3.0f, new Item.Settings()));
     public static final Item CRIMSON_RAZORBACK4 = registerItem("crimson_razorback4", new SwordItem(GuitarToolMaterial.GAME_CHILD, 2, -3.0f, new Item.Settings()));
-    public static final Item DRAGONS_FEATHER4 = registerItem("dragons_feather4", new DragonsFeather(FeatherToolMaterial.FEATHER, 7, 0.5f, new Item.Settings()));
-    public static final Item GOLDEN_AXE4 = registerItem("golden_axe4", new GoldenAxe(GoldPlateToolMaterial.GOLD_PLATE, 7, -2.0f, new Item.Settings()));
+    public static final Item DRAGONS_FEATHER4 = registerItem("dragons_feather4", new DragonsFeather4(FeatherToolMaterial.FEATHER, 7, 0.5f, new Item.Settings()));
+    public static final Item GOLDEN_AXE4 = registerItem("golden_axe4", new GoldenAxe3(GoldPlateToolMaterial.GOLD_PLATE, 7, -2.0f, new Item.Settings()));
     public static final Item DARK_STALKER4 = registerItem("dark_stalker4", new DarkStalker(RazorClawToolMaterial.RAZOR_CLAW, 4, -2.9f, new Item.Settings()));
-    public static final Item FUSION_BLADE4 = registerItem("fusion_blade4", new SwordItem(FusionToolMaterial.METAL_GEAR, 5, -2.5f, new Item.Settings()));
+    public static final Item FUSION_BLADE4 = registerItem("fusion_blade4", new FusionBlade4(FusionToolMaterial.METAL_GEAR, 5, -2.5f, new Item.Settings()));
     public static final Item SOUL_EATER4 = registerItem("soul_eater4", new SoulEater(RazorClawToolMaterial.IRON_PLATE, 7, -3.34f, new Item.Settings()));
-    public static final Item LOVE_BLADE4 = registerItem("love_blade4", new LoveBlade(JungleFlowerToolMaterial.JUNGLE_FLOWER, 0, -3.0f, new Item.Settings()));
+    public static final Item LOVE_BLADE4 = registerItem("love_blade4", new LoveBlade4(JungleFlowerToolMaterial.JUNGLE_FLOWER, 0, -3.0f, new Item.Settings()));
 
     //Swords 5
 
-    public static final Item HEAVENS_GATE5 = registerItem("heavens_gate5", new HeavensGate(SteelToolMaterial.STEEL_PLATE, 8, -3.23f, new Item.Settings()));
-    public static final Item BERZERKER5 = registerItem("berzerker5", new Berzerker(BrickToolMaterial.BRICK, 12, -3.4f, new Item.Settings()));
-    public static final Item INFERNO5 = registerItem("inferno5", new Inferno(FireToolMaterial.FIRE, 3, -1.5f, new Item.Settings()));
+    public static final Item HEAVENS_GATE5 = registerItem("heavens_gate5", new HeavensGate3(SteelToolMaterial.STEEL_PLATE, 8, -3.23f, new Item.Settings()));
+    public static final Item BERZERKER5 = registerItem("berzerker5", new Berzerker5(BrickToolMaterial.BRICK, 12, -3.4f, new Item.Settings()));
+    public static final Item INFERNO5 = registerItem("inferno5", new Inferno5(FireToolMaterial.FIRE, 3, -1.5f, new Item.Settings()));
     public static final Item ICE_NEEDLE5 = registerItem("ice_needle5", new IceNeedle(IceToolMaterial.ICE, 8, -3.1f, new Item.Settings()));
     public static final Item LIGHTNING_SHARD5 = registerItem("lightning_shard5", new SwordItem(TopazToolMaterial.TOPAZ, 6, 1.5f, new Item.Settings()));
-    public static final Item SAPPHIRE_SAINT5 = registerItem("sapphire_saint5", new SapphireSaint(SapphireToolMaterial.SAPPHIRE, 8, -2.5f, new Item.Settings()));
+    public static final Item SAPPHIRE_SAINT5 = registerItem("sapphire_saint5", new SapphireSaint5(SapphireToolMaterial.SAPPHIRE, 8, -2.5f, new Item.Settings()));
     public static final Item BLACK_FANG5 = registerItem("black_fang5", new BlackFang(OpalToolMaterial.OPAL, 4, -1.0f, new Item.Settings()));
-    public static final Item THE_CHOPPER5 = registerItem("the_chopper5", new TheChopper(WoodToolMaterial.STEEL_PLATE, 5, -3.5f, new Item.Settings()));
-    public static final Item GIANT_SLAYER5 = registerItem("giant_slayer5", new SwordItem(SteelToolMaterial.IRON_PLATE, 19, -3.6f, new Item.Settings()));
-    public static final Item HYPER_DRILL5 = registerItem("hyper_drill5", new PickaxeItem(DrillToolMaterial.STEEL_PLATE, 7, -3.0f, new Item.Settings()));
-    public static final Item EMERALD_SMASHER5 = registerItem("emerald_smasher5", new PickaxeItem(EmeraldToolMaterial.EMERALD, 9, -3.2f, new Item.Settings()));
-    public static final Item DEVILS_FORK5 = registerItem("devils_fork5", new DevilsFork(FireToolMaterial.IRON_PLATE, 6, -3.2f, new Item.Settings()));
-    public static final Item ULTRA_PRO5 = registerItem("ultra_pro5", new SwordItem(WoodToolMaterial.SOFT_WOOD, 4, 2.0f, new Item.Settings()));
-    public static final Item CLUB_OF_WITHERING5 = registerItem("club_of_withering5", new ClubOfWithering(BoneToolMaterial.BONE, 5, -3.0f, new Item.Settings()));
+    public static final Item THE_CHOPPER5 = registerItem("the_chopper5", new TheChopper5(WoodToolMaterial.STEEL_PLATE, 5, -3.5f, new Item.Settings()));
+    public static final Item GIANT_SLAYER5 = registerItem("giant_slayer5", new GiantSlayer(SteelToolMaterial.IRON_PLATE, 19, -3.6f, new Item.Settings()));
+    public static final Item HYPER_DRILL5 = registerItem("hyper_drill5", new HyperDrill5(DrillToolMaterial.STEEL_PLATE, 7, -3.0f, new Item.Settings()));
+    public static final Item EMERALD_SMASHER5 = registerItem("emerald_smasher5", new EmeraldSmasher(EmeraldToolMaterial.EMERALD, 9, -3.2f, new Item.Settings()));
+    public static final Item DEVILS_FORK5 = registerItem("devils_fork5", new DevilsFork5(FireToolMaterial.IRON_PLATE, 6, -3.2f, new Item.Settings()));
+    public static final Item ULTRA_PRO5 = registerItem("ultra_pro5", new UltraPro5(WoodToolMaterial.SOFT_WOOD, 4, 2.0f, new Item.Settings()));
+    public static final Item CLUB_OF_WITHERING5 = registerItem("club_of_withering5", new ClubOfWithering4(BoneToolMaterial.BONE, 5, -3.0f, new Item.Settings()));
     public static final Item CRIMSON_RAZORBACK5 = registerItem("crimson_razorback5", new SwordItem(GuitarToolMaterial.GAME_CHILD, 3, -3.0f, new Item.Settings()));
-    public static final Item DRAGONS_FEATHER5 = registerItem("dragons_feather5", new DragonsFeather(FeatherToolMaterial.FEATHER, 8, 1.0f, new Item.Settings()));
-    public static final Item GOLDEN_AXE5 = registerItem("golden_axe5", new GoldenAxe(GoldPlateToolMaterial.GOLD_PLATE, 8, -2.0f, new Item.Settings()));
+    public static final Item DRAGONS_FEATHER5 = registerItem("dragons_feather5", new DragonsFeather5(FeatherToolMaterial.FEATHER, 8, 1.0f, new Item.Settings()));
+    public static final Item GOLDEN_AXE5 = registerItem("golden_axe5", new GoldenAxe5(GoldPlateToolMaterial.GOLD_PLATE, 8, -2.0f, new Item.Settings()));
     public static final Item DARK_STALKER5 = registerItem("dark_stalker5", new DarkStalker(RazorClawToolMaterial.RAZOR_CLAW, 5, -2.9f, new Item.Settings()));
-    public static final Item FUSION_BLADE5 = registerItem("fusion_blade5", new SwordItem(FusionToolMaterial.METAL_GEAR, 7, -2.5f, new Item.Settings()));
+    public static final Item FUSION_BLADE5 = registerItem("fusion_blade5", new FusionBlade4(FusionToolMaterial.METAL_GEAR, 7, -2.5f, new Item.Settings()));
     public static final Item SOUL_EATER5 = registerItem("soul_eater5", new SoulEater(RazorClawToolMaterial.IRON_PLATE, 9, -3.34f, new Item.Settings()));
-    public static final Item LOVE_BLADE5 = registerItem("love_blade5", new LoveBlade(JungleFlowerToolMaterial.JUNGLE_FLOWER, 0, -3.0f, new Item.Settings()));
+    public static final Item LOVE_BLADE5 = registerItem("love_blade5", new LoveBlade5(JungleFlowerToolMaterial.JUNGLE_FLOWER, 0, -3.0f, new Item.Settings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(EARTH_BALL);

@@ -13,7 +13,7 @@ public class GoldenAxe extends AxeItem {
     }
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker){
         attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.LUCK, 200, 1));
-        attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 200, 1));
+        attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 200, 0));
         return false;
     }
 }
