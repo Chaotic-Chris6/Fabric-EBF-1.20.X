@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "epicbattlefantasymod:silver_plate"
+    },
+    "E": {
+      "item": "epicbattlefantasymod:earth_ball"
+    },
+    "T": {
+      "item": "epicbattlefantasymod:titanium"
+    },
+    "H": {
+      "item": "epicbattlefantasymod:hyper_drill4"
+    }
+  },
+  "pattern": [
+    "STS",
+    "SHS",
+    "ESE"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:hyper_drill5"
+  }
+}

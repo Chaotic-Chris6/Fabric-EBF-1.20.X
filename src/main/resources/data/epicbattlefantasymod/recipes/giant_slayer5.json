@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "epicbattlefantasymod:steel_plate"
+    },
+    "I": {
+      "item": "epicbattlefantasymod:iron_plate"
+    },
+    "T": {
+      "item": "epicbattlefantasymod:titanium"
+    },
+    "G": {
+      "item": "epicbattlefantasymod:giant_slayer4"
+    }
+  },
+  "pattern": [
+    "STS",
+    "SGS",
+    "III"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:giant_slayer5"
+  }
+}

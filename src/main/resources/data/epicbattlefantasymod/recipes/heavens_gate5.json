@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "epicbattlefantasymod:mythril_shards"
+    },
+    "G": {
+      "item": "epicbattlefantasymod:gold_plate"
+    },
+    "H": {
+      "item": "epicbattlefantasymod:heavens_gate4"
+    }
+  },
+  "pattern": [
+    " M ",
+    " H ",
+    "G G"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:heavens_gate5"
+  }
+}

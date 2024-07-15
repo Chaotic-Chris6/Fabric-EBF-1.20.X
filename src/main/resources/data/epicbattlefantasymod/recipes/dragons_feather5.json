@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "epicbattlefantasymod:mythril_shards"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "D": {
+      "item": "epicbattlefantasymod:dragons_feather4"
+    }
+  },
+  "pattern": [
+    " M ",
+    "FDF",
+    "F F"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:dragons_feather5"
+  }
+}

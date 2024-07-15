@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "M": {
+      "item": "epicbattlefantasymod:magma_chunk"
+    },
+    "D": {
+      "item": "epicbattlefantasymod:devils_fork4"
+    }
+  },
+  "pattern": [
+    "MBM",
+    "MDM",
+    "MMM"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:devils_fork5"
+  }
+}

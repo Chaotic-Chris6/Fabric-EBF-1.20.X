@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": {
+      "item": "epicbattlefantasymod:star_fragment"
+    },
+    "S": {
+      "item": "epicbattlefantasymod:sea_shell"
+    },
+    "L": {
+      "item": "epicbattlefantasymod:lightning_shard4"
+    }
+  },
+  "pattern": [
+    " F ",
+    "SLS",
+    " S "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:lightning_shard5"
+  }
+}

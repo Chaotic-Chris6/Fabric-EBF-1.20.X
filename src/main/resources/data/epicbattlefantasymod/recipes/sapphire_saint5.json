@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "A": {
+      "item": "epicbattlefantasymod:sapphire"
+    },
+    "S": {
+      "item": "epicbattlefantasymod:sapphire_saint4"
+    }
+  },
+  "pattern": [
+    " D ",
+    "ASA",
+    " A "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:sapphire_saint5"
+  }
+}

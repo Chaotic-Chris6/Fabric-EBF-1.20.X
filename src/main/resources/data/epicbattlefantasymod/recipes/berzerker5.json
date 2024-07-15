@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "epicbattlefantasymod:mythril_shards"
+    },
+    "S": {
+      "item": "epicbattlefantasymod:sacred_rune"
+    },
+    "Z": {
+      "item": "epicbattlefantasymod:berzerker4"
+    }
+  },
+  "pattern": [
+    " M ",
+    "SZS",
+    "S S"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:berzerker5"
+  }
+}

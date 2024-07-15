@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "epicbattlefantasymod:game_child"
+    },
+    "B": {
+      "item": "epicbattlefantasymod:beer"
+    },
+    "C": {
+      "item": "epicbattlefantasymod:chips"
+    },
+    "U": {
+      "item": "epicbattlefantasymod:ultra_pro4"
+    }
+  },
+  "pattern": [
+    "   ",
+    "CUG",
+    " B "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:ultra_pro5"
+  }
+}

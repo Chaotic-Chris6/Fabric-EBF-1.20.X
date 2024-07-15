@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "epicbattlefantasymod:game_child"
+    },
+    "P": {
+      "item": "epicbattlefantasymod:plutonium_core"
+    },
+    "F": {
+      "item": "epicbattlefantasymod:fusion_blade4"
+    }
+  },
+  "pattern": [
+    " P ",
+    " F ",
+    " G "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:fusion_blade5"
+  }
+}

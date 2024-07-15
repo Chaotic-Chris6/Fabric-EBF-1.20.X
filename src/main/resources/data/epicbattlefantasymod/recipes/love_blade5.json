@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "J": {
+      "item": "epicbattlefantasymod:jungle_flower"
+    },
+    "M": {
+      "item": "epicbattlefantasymod:moon_pearl"
+    },
+    "L": {
+      "item": "epicbattlefantasymod:love_blade4"
+    }
+  },
+  "pattern": [
+    "JMJ",
+    "JLJ",
+    "JMJ"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:love_blade5"
+  }
+}

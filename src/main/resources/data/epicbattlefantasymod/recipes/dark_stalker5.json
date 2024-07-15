@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "epicbattlefantasymod:dark_matter"
+    },
+    "B": {
+      "item": "epicbattlefantasymod:bone_spike"
+    },
+    "D": {
+      "item": "epicbattlefantasymod:dark_stalker4"
+    }
+  },
+  "pattern": [
+    " M ",
+    "BDB",
+    "B B"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:dark_stalker5"
+  }
+}

@@ -9,7 +9,7 @@
       "item": "epicbattlefantasymod:cloudberries"
     },
     "L": {
-      "item": "epicbattlefantasymod:love_blade2"
+      "item": "epicbattlefantasymod:love_blade3"
     }
   },
   "pattern": [
@@ -18,6 +18,6 @@
     "DCC"
   ],
   "result": {
-    "item": "epicbattlefantasymod:love_blade3"
+    "item": "epicbattlefantasymod:love_blade4"
   }
 }

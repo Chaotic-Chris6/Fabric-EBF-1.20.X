@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "item": "minecraft:echo_shard"
+    },
+    "D": {
+      "item": "epicbattlefantasymod:dark_matter"
+    },
+    "S": {
+      "item": "epicbattlefantasymod:soul_eater4"
+    }
+  },
+  "pattern": [
+    "EEE",
+    "ESE",
+    "EDE"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:soul_eater5"
+  }
+}

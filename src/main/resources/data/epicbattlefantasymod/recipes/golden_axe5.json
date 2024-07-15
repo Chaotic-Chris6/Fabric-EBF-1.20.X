@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "P": {
+      "item": "epicbattlefantasymod:gold_plate"
+    },
+    "T": {
+      "item": "epicbattlefantasymod:the_holy_grail"
+    },
+    "G": {
+      "item": "epicbattlefantasymod:golden_axe4"
+    }
+  },
+  "pattern": [
+    "PTP",
+    "PGP",
+    "PPP"
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:golden_axe5"
+  }
+}
