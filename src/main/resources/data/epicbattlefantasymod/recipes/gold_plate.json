@@ -7,11 +7,12 @@
     }
   },
   "pattern": [
-    " GG",
-    "GG ",
-    "G G"
+    "   ",
+    "GGG",
+    "   "
   ],
   "result": {
-    "item": "epicbattlefantasymod:gold_plate"
+    "item": "epicbattlefantasymod:gold_plate",
+    "count": 3
   }
 }

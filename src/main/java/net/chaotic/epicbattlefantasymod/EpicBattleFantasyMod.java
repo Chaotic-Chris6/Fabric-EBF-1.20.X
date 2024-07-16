@@ -19,7 +19,7 @@ public class EpicBattleFantasyMod implements ModInitializer {
 		ModItems.registerModItems();
 		FuelRegistry.INSTANCE.add(ModItems.SOFT_WOOD, 200);
 		FuelRegistry.INSTANCE.add(ModItems.GASH_ROOT, 250);
-		FuelRegistry.INSTANCE.add(ModItems.PLUTONIUM_CORE, 691200);
+		FuelRegistry.INSTANCE.add(ModItems.PLUTONIUM_CORE, 25600);
 		ModLootTableModifiers.modifyLootTables();
 	}
 }
