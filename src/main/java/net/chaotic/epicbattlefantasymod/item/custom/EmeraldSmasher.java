@@ -4,10 +4,10 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ToolMaterial;
 
-public class EmeraldSmasher extends SwordItem {
+public class EmeraldSmasher extends PickaxeItem {
     public EmeraldSmasher(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, Settings settings) {
         super(toolMaterial, attackDamage, attackSpeed, settings);
     }

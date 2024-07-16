@@ -1945,7 +1945,7 @@ public class ModLootTableModifiers {
             if(NETHER_BRIDGE_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.5f))
+                        .conditionally(RandomChanceLootCondition.builder(0.00666f))
                         .with(ItemEntry.builder(ModItems.CLUB_OF_WITHERING))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
@@ -2707,7 +2707,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.5f))
-                        .with(ItemEntry.builder(ModItems.PLUTONIUM_CORE))
+                        .with(ItemEntry.builder(ModItems.HAND_BOMB))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 4.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());

@@ -165,7 +165,7 @@ public class ModItems {
 
     public static final Item HEAVENS_GATE4 = registerItem("heavens_gate4", new HeavensGate3(SteelToolMaterial.STEEL_PLATE, 6, -3.23f, new Item.Settings()));
     public static final Item BERZERKER4 = registerItem("berzerker4", new Berzerker4(BrickToolMaterial.BRICK, 10, -3.4f, new Item.Settings()));
-    public static final Item INFERNO4 = registerItem("inferno4", new Inferno4(FireToolMaterial.FIRE, 1, -2.0f, new Item.Settings()));
+    public static final Item INFERNO4 = registerItem("inferno4", new Inferno4(FireToolMaterial.FIRE, 8, -2.0f, new Item.Settings()));
     public static final Item ICE_NEEDLE4 = registerItem("ice_needle4", new IceNeedle(IceToolMaterial.ICE, 6, -3.1f, new Item.Settings()));
     public static final Item LIGHTNING_SHARD4 = registerItem("lightning_shard4", new SwordItem(TopazToolMaterial.TOPAZ, 5, 1.0f, new Item.Settings()));
     public static final Item SAPPHIRE_SAINT4 = registerItem("sapphire_saint4", new SapphireSaint4(SapphireToolMaterial.SAPPHIRE, 7, -2.5f, new Item.Settings()));
@@ -189,7 +189,7 @@ public class ModItems {
 
     public static final Item HEAVENS_GATE5 = registerItem("heavens_gate5", new HeavensGate3(SteelToolMaterial.STEEL_PLATE, 8, -3.23f, new Item.Settings()));
     public static final Item BERZERKER5 = registerItem("berzerker5", new Berzerker5(BrickToolMaterial.BRICK, 12, -3.4f, new Item.Settings()));
-    public static final Item INFERNO5 = registerItem("inferno5", new Inferno5(FireToolMaterial.FIRE, 3, -1.5f, new Item.Settings()));
+    public static final Item INFERNO5 = registerItem("inferno5", new Inferno5(FireToolMaterial.FIRE, 9, -1.5f, new Item.Settings()));
     public static final Item ICE_NEEDLE5 = registerItem("ice_needle5", new IceNeedle(IceToolMaterial.ICE, 8, -3.1f, new Item.Settings()));
     public static final Item LIGHTNING_SHARD5 = registerItem("lightning_shard5", new SwordItem(TopazToolMaterial.TOPAZ, 6, 1.5f, new Item.Settings()));
     public static final Item SAPPHIRE_SAINT5 = registerItem("sapphire_saint5", new SapphireSaint5(SapphireToolMaterial.SAPPHIRE, 8, -2.5f, new Item.Settings()));
