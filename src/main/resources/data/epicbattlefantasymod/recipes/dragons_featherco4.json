@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "Z": {
+      "item": "epicbattlefantasymod:dragons_feather3"
+    },
+     "s": {
+        "item": "epicbattlefantasymod:super_tape"
+      }
+    },
+    "pattern": [
+      "   ",
+      "   ",
+      "ZsZ"
+    ],
+    "result": {
+      "item": "epicbattlefantasymod:dragons_feather4"
+    }
+  }

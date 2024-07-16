@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "Z": {
+      "item": "epicbattlefantasymod:crimson_razorback3"
+    },
+     "s": {
+        "item": "epicbattlefantasymod:super_tape"
+      }
+    },
+    "pattern": [
+      "   ",
+      "   ",
+      "ZsZ"
+    ],
+    "result": {
+      "item": "epicbattlefantasymod:crimson_razorback4"
+    }
+  }

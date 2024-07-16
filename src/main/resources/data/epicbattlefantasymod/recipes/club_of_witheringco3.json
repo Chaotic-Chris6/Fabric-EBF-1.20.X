@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "Z": {
+      "item": "epicbattlefantasymod:club_of_withering2"
+    },
+     "s": {
+        "item": "epicbattlefantasymod:super_tape"
+      }
+    },
+    "pattern": [
+      "   ",
+      "   ",
+      "ZsZ"
+    ],
+    "result": {
+      "item": "epicbattlefantasymod:club_of_withering3"
+    }
+  }

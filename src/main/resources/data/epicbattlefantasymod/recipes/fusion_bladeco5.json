@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "Z": {
+      "item": "epicbattlefantasymod:fusion_blade4"
+    },
+     "s": {
+        "item": "epicbattlefantasymod:super_tape"
+      }
+    },
+    "pattern": [
+      "   ",
+      "   ",
+      "ZsZ"
+    ],
+    "result": {
+      "item": "epicbattlefantasymod:fusion_blade5"
+    }
+  }

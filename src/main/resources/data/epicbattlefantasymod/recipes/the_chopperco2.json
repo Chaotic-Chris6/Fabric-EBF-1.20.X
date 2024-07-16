@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "Z": {
+      "item": "epicbattlefantasymod:the_chopper"
+    },
+     "s": {
+        "item": "epicbattlefantasymod:super_tape"
+      }
+    },
+    "pattern": [
+      "   ",
+      "   ",
+      "ZsZ"
+    ],
+    "result": {
+      "item": "epicbattlefantasymod:the_chopper2"
+    }
+  }
