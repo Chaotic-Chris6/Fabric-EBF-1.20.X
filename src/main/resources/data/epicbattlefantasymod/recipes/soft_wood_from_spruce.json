@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "minecraft:spruce_log"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    }
+  },
+  "pattern": [
+    " F ",
+    " W ",
+    "   "
+  ],
+  "result": {
+    "item": "epicbattlefantasymod:soft_wood",
+    "count": 4
+  }
+}
