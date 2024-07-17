@@ -1,7 +1,6 @@
 package net.chaotic.epicbattlefantasymod.item.custom;
 
 import net.chaotic.epicbattlefantasymod.entity.custom.ShurikenProjectileEntity;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;

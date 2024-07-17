@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "epicbattlefantasymod:devils_fork2"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "epicbattlefantasymod:devils_fork3"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_sword",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "epicbattlefantasymod:devils_fork3"
+    ]
+  },
+  "sends_telemetry_event": false
+}

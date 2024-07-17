@@ -2303,6 +2303,15 @@ public class ModLootTableModifiers {
 
                 tableBuilder.pool(poolBuilder.build());
             }
+            if(SPAWN_BONUS_CHEST_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(1.0f))
+                        .with(ItemEntry.builder(ModItems.ULTRA_PRO))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
 
             if(STRONGHOLD_CORRIDOR_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()

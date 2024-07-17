@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "epicbattlefantasymod:club_of_withering4"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "epicbattlefantasymod:club_of_withering5"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_sword",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "epicbattlefantasymod:club_of_withering5"
+    ]
+  },
+  "sends_telemetry_event": false
+}
