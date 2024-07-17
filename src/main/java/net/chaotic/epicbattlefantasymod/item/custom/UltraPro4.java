@@ -12,7 +12,6 @@ public class UltraPro4 extends SwordItem {
         super(toolMaterial, attackDamage, attackSpeed, settings);
     }
         public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker){
-            target.setOnFireFor(2);
             attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 200, 3));
             return false;
 
