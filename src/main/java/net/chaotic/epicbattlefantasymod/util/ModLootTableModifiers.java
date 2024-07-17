@@ -230,6 +230,14 @@ public class ModLootTableModifiers {
             new Identifier("minecraft", "archaeology/trail_ruins_rare");
 
 
+    private static final Identifier FISHING_FISH_ID =
+            new Identifier("minecraft", "gameplay/fishing/fish");
+    private static final Identifier FISHING_JUNK_ID =
+            new Identifier("minecraft", "gameplay/fishing/junk");
+    private static final Identifier FISHING_TREASURE_ID =
+            new Identifier("minecraft", "gameplay/fishing/treasure");
+
+
     public static void modifyLootTables() {
         LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
             if(VILLAGE_ARMORER_ID.equals(id)) {
@@ -4038,8 +4046,8 @@ public class ModLootTableModifiers {
 
                 tableBuilder.pool(poolBuilder.build());
             }
-        });
 
+        });
 
 
         LootTableEvents.REPLACE.register((resourceManager, lootManager, id, original, source) -> {
@@ -4125,6 +4133,63 @@ public class ModLootTableModifiers {
                 return LootTable.builder().pool(pool).build();
 
             }
+            return null;
+        });
+
+
+
+        LootTableEvents.REPLACE.register((resourceManager, lootManager, id, original, source) -> {
+            if(FISHING_FISH_ID.equals(id)){
+                List<LootPoolEntry> entries = new ArrayList<>(Arrays.asList(original.pools[0].entries));
+                entries.add(ItemEntry.builder(ModItems.CHIPS).weight(2).build());
+
+                LootPool.Builder pool = LootPool.builder().with(entries);
+                return LootTable.builder().pool(pool).build();
+
+            }
+
+
+            return null;
+        });
+
+        LootTableEvents.REPLACE.register((resourceManager, lootManager, id, original, source) -> {
+            if(FISHING_JUNK_ID.equals(id)){
+                List<LootPoolEntry> entries = new ArrayList<>(Arrays.asList(original.pools[0].entries));
+                entries.add(ItemEntry.builder(ModItems.SOFT_WOOD).weight(5).build());
+                entries.add(ItemEntry.builder(ModItems.SUPER_TAPE).weight(5).build());
+                entries.add(ItemEntry.builder(ModItems.LIQUID_ICE).weight(10).build());
+                entries.add(ItemEntry.builder(ModItems.BIO_VIRUS).weight(10).build());
+                entries.add(ItemEntry.builder(ModItems.BONE_SPIKE).weight(10).build());
+
+                LootPool.Builder pool = LootPool.builder().with(entries);
+                return LootTable.builder().pool(pool).build();
+
+            }
+
+
+            return null;
+        });
+
+        LootTableEvents.REPLACE.register((resourceManager, lootManager, id, original, source) -> {
+            if(FISHING_TREASURE_ID.equals(id)){
+                List<LootPoolEntry> entries = new ArrayList<>(Arrays.asList(original.pools[0].entries));
+                entries.add(ItemEntry.builder(ModItems.SEA_SHELL).weight(10).build());
+                entries.add(ItemEntry.builder(ModItems.SACRED_RUNE).weight(10).build());
+                entries.add(ItemEntry.builder(ModItems.SATIN).weight(10).build());
+                entries.add(ItemEntry.builder(ModItems.PLASTIC).weight(10).build());
+                entries.add(ItemEntry.builder(ModItems.NANO_FIBRE).weight(5).build());
+                entries.add(ItemEntry.builder(ModItems.LECKO_BRICK).weight(5).build());
+                entries.add(ItemEntry.builder(ModItems.MOON_PEARL).weight(5).build());
+                entries.add(ItemEntry.builder(ModItems.GAME_CHILD).weight(1).build());
+                entries.add(ItemEntry.builder(ModItems.THE_HOLY_GRAIL).weight(1).build());
+                entries.add(ItemEntry.builder(ModItems.STAR_FRAGMENT).weight(1).build());
+
+                LootPool.Builder pool = LootPool.builder().with(entries);
+                return LootTable.builder().pool(pool).build();
+
+            }
+
+
             return null;
         });
     }
