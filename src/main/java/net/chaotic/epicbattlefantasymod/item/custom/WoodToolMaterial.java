@@ -7,7 +7,7 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum WoodToolMaterial implements ToolMaterial {
-    SOFT_WOOD(5, 2000, 6.0F, 3.0F, 7, () -> Ingredient.ofItems(ModItems.SOFT_WOOD)),
+    SOFT_WOOD(5, 2000, 6.0F, 1.0F, 7, () -> Ingredient.ofItems(ModItems.SOFT_WOOD)),
     STEEL_PLATE(5, 1500, 6.0F, 3.0F, 14, () -> Ingredient.ofItems(ModItems.STEEL_PLATE));
 
     private final int miningLevel;
